@@ -10,8 +10,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Kira interchain exchange docs', // Title for your website.
-  tagline: 'KiraEx docs',
+  title: 'KiraEx', // Title for your website.
+  tagline: 'Kira Interchain Exchange docs',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,8 +38,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#1b8b63',
-    secondaryColor: '#126145',
+    primaryColor: '#000103',
+    secondaryColor: '#3b3b3b',
   },
 
   /* Custom fonts for website */
