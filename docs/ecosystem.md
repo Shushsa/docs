@@ -3,7 +3,7 @@ id: ecosystem
 title: Kira's Ecosystem
 sidebar_label: Kira's Ecosystem
 ---
-## Q1: "What are the possible roles in Kira Network ecosystem?"
+## Q1: What are the possible roles in Kira Network ecosystem?
 1. User - is a person who owns any whitelisted fee tokens, such as BTC, ETH, KEX etc,
 and can interact with the exchange.
 2. Delegator - is a user who owns stake-able assets and bonds them to the validator of
@@ -15,7 +15,7 @@ operate a validator node.
 5. Hunter - node operator that verifies and confirms computation occurring on the exchange
 zones.
 
-## Q2: "How will delegators make money?"
+## Q2: How will delegators make money?
 Delegators are incentivised in block rewards, network fee rewards and exchange fee
 rewards. Block rewards are proportional to the stake bond (globally) while the network fee
 rewards and exchange fee rewards are proportional to the stake bond to each particular
@@ -23,7 +23,7 @@ validator. The delegators are eligible to earn up to 50% of all exchange fees, w
 50% is credited to validators. Delegators can bond any assets that are whitelisted as stake-able
 and earn revenue from the exchange even if they do no own KEX token.
 
-## Q3: "How will validators make money?"
+## Q3: How will validators make money?
 Validators earn commission fees from block rewards that delegators receive. Commision
 fees for block rewards are defined individually by each validator, in range of 0% to 100%.
 Furthermore each validator is eligible to 50% of all exchange and network fees from each block
@@ -34,7 +34,7 @@ case where the exchange zone will not be generating enough network and exchange 
 rewards, validators can be incentivized through the community pool and on-chain contacting
 system to ensure that the exchange is operational under all possible market conditions.
 
-## Q4: "How do counselors make money?"
+## Q4: How do counselors make money?
 Counselors are incentivized by being able to lock their KEX tokens and earn revenue
 from block rewards at ratio no greater than inflation rate, while their locked assets cannot be
 slashed. The tokens that counselors lock are not transferable in form of shares compared to
@@ -42,12 +42,12 @@ tokens that the delegators stake. Counselors cannot lock more than x% (defined b
 governance) of the tokens they have.
 
 
-## Q5: "Does having a large validator set decrease the speed of the network?"
+## Q5: Does having a large validator set decrease the speed of the network?
 No, due to the Hub-spoke architecture. The settlement layer (Kira Hub) requires large
 number of validators to ensure the security of all assets in the network. Trades do not occur on the Kira Hub, they occur on the exchange zones with smaller validator sets which ensure high
 throughput.
 
-## Q6: "What is the tokenomics model at the zone level? Do zone validators must also be hub validators?"
+## Q6: What is the tokenomics model at the zone level? Do zone validators must also be hub validators?
 Yes, you have to be a hub validator and have associated stake there, otherwise you 
 would not be slashable. To be precise, zone validators participate in the 'bonded' Proof of
 Authority consensus.
