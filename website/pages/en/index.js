@@ -36,12 +36,13 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
+      
       <h2 className="projectTitle">
         {siteConfig.title}
         <small>{siteConfig.tagline}</small>
       </h2>
+      
     );
-
     const PromoSection = props => (
       <div className="section promoSection">
         <div className="promoRow">
@@ -60,13 +61,10 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
+        <img src="img/Kira-Logo-Full.svg" width="500" height="500"></img>
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('general.html')}>FAQ</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -75,6 +73,7 @@ class HomeSplash extends React.Component {
 }
 
 class Index extends React.Component {
+
   render() {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
@@ -83,22 +82,86 @@ class Index extends React.Component {
       <Container
         padding={['bottom', 'top']}
         id={props.id}
-        background={props.background}>
+        background={props.background}
+        >
         <GridBlock
-          align="center"
+          align="left"
           contents={props.children}
           layout={props.layout}
         />
       </Container>
     );
 
-    const FeatureCallout = () => (
+    const AboutProject = () => (
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        style={{textAlign: 'left'}}>
+        <h2>About the Project</h2>
+        <MarkdownBlock>Kira is a hyperscale decentralized exchange that enables trustless cross-chain token transfers and trading. Thanks to dual consensus mechanisms of Multi-Bonded Proof of Stake (MBPoS) that provides security and Multi-Bonded Proof of Authority (MBPoA) that delivers speed, users can trade in trustless manner whilst maintaining a user experience that matches or exceeds that of centralized exchanges.</MarkdownBlock>
+        <MarkdownBlock>Connections to Internet of Blockchain (IoB) networks such as Cosmos, Polkadot and bridges to foreign public and private ledgers enable Kira users access to a variety of markets previously unreachable in a decentralized manner. Behind the scenes, the Tendermint consensus engine provides fast finality of trades, enabling liquidity providers to reduce risk, tighten spreads and deepen order books.</MarkdownBlock>
+        <MarkdownBlock>Stakeholders and operators manage, govern and benefit from all aspects of exchange operations in a fully decentralized fashion, without any privileged participants deriving excessive power or tribute. Efficient operations and ongoing open-source development is incentivised via a novel economic model consisting of multiple self-sustaining positive feedback loops. Kira aims to offer the emerging Proof of Stake (PoS) ecosystem a number of fundamental advances in decentralisation that, taken together, will help ensure the future security of all interconnected PoS by delivering uncensorable and unstoppable market access.</MarkdownBlock>
+        <MarkdownBlock>To learn more click here, or see Kira FAQ</MarkdownBlock>
       </div>
+    );
+    const TeamList = () => (
+
+      <Block layout="threeColumn">
+        {      
+
+          [{
+            content: 'Co-Founder & Chief Executive Officer',
+            image: `${baseUrl}img/milanavalmont.jpg`,
+            title: 'Milana Valmont',
+          },
+          {
+            content: 'Founder & Chief Technology Officer',
+            image: `${baseUrl}img/asmodat.png`,
+            title: 'Mateusz Grzelak'
+          },
+          {
+            content: 'Head of Engineering',
+            image: `${baseUrl}img/ethan.jpg`,
+            title: 'Ethan Frey',
+          },          
+        ]}
+      </Block>
+
+      
+    );
+    const TeamList2 = () => (
+      <Block layout="threeColumn">
+        {
+          [{
+            content: 'Advisor',
+            image: `${baseUrl}img/niki.png`,
+            title: 'Niki Wiles', 
+          },
+          {
+            content: 'Security Advisor',
+            image: `${baseUrl}img/jorge.jpg`,
+            title: 'Jorge Rodriguez',
+          },
+
+          {
+            content: 'Social Media Manager',
+            image: `${baseUrl}img/lawrence.jpg`,
+            title: 'Lawrence Stoican',
+          },
+
+        ]}
+      </Block>
+
+      
+    );
+
+    const FeatureCallout = () => (
+      
+      <div
+        style={{textAlign: 'center'}}>
+        <h2>Contact</h2>
+        <p>hello@kiraex.com</p>
+      </div>
+      
     );
 
     const TryOut = () => (
@@ -124,7 +187,7 @@ class Index extends React.Component {
             content:
               'This is another description of how this project is useful',
             image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
+            imageAlign: 'left',
             title: 'Description',
           },
         ]}
@@ -141,28 +204,14 @@ class Index extends React.Component {
             imageAlign: 'right',
             title: 'Randomly Generated Theme Colors',
           },
+          
         ]}
       </Block>
+      
     );
 
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
-    );
+ 
+
 
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
@@ -197,12 +246,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+
         </div>
       </div>
     );

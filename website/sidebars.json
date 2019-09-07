@@ -1,9 +1,6 @@
 {
   "docs": {
-    "Docusaurus": ["doc1", "doc2", "doc3"],
-    "Second": ["doc4", "doc10"]
-  },
-  "docs-other": {
-    "First Category": ["doc5"]
+    "Frequently Asked Questions": ["general", "exchange", "ecosystem", "governance"]
   }
+
 }

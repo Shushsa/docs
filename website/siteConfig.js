@@ -11,7 +11,7 @@ const users = [
 
 const siteConfig = {
   title: 'KiraEx', // Title for your website.
-  tagline: 'Kira Interchain Exchange docs',
+  tagline: 'Interchain Exchange',
   url: 'https://kiraex.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -23,23 +23,21 @@ const siteConfig = {
   organizationName: 'Kira-Exchange',
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {blog: true, label: 'Blog'},
-  ],
+  headerLinks: [],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/KiraIcon.png',
+  footerIcon: 'img/KiraIcon.png',
+  favicon: 'img/KiraIcon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#000103',
-    secondaryColor: '#3b3b3b',
+    //f5f5f5
+    primaryColor: '#C792DF',
+    secondaryColor: '#6610F2',
   },
 
   /* Custom fonts for website */
@@ -70,7 +68,7 @@ const siteConfig = {
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
   // No .html extensions for paths.
-  cleanUrl: true,
+  cleanUrl: false,
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
