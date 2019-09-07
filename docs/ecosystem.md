@@ -25,7 +25,7 @@ and earn revenue from the exchange even if they do no own KEX token.
 
 ## Q3: How will validators make money?
 Validators earn commission fees from block rewards that delegators receive. Commision
-fees for block rewards are defined individually by each validator, in range of 0% to 100%.
+fees for block rewards are defined individually by each validator, in range of 0% to 100%, presumably ~%10 as seen on most DPoS.
 Furthermore each validator is eligible to 50% of all exchange and network fees from each block
 proposed. Validators could also be delegators and self bond the profits they generate to gain
 compound interest. Kira Hub validators with the highest uptime and stake bonded can be
