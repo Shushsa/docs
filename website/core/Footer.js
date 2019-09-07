@@ -52,10 +52,17 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Medium
             </a>
+            <a
+              href="https://github.com/kira-ex"
+              target="_blank"
+              rel="noreferrer noopener">
+              Github
+            </a>
+
           </div>
           <div>
-            <h5>More</h5>
-            <a href="https://github.com/kira-ex">GitHub</a>
+            <h5>Contact us</h5>
+            <h5>hello@kiraex.com</h5>
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>

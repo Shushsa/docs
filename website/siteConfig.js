@@ -5,7 +5,7 @@ const users = [
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
     infoLink: 'https://www.facebook.com',
-    pinned: true,
+    pinned: false,
   },
 ];
 
@@ -37,7 +37,7 @@ const siteConfig = {
   colors: {
     //f5f5f5
     primaryColor: '#C792DF',
-    secondaryColor: '#6610F2',
+    secondaryColor: '#FFFFFF',
   },
 
   /* Custom fonts for website */
@@ -68,7 +68,7 @@ const siteConfig = {
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
   // No .html extensions for paths.
-  cleanUrl: false,
+  cleanUrl: true,
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
