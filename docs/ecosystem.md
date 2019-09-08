@@ -8,15 +8,12 @@ sidebar_label: Kira's Ecosystem
 and can interact with the exchange.
 2. Delegator - is a user who owns stake-able assets and bonds them to the validator of
 choice to secure the network.
-3. Validator - is the exchange operator to whom stake-able assets are bonded thanks to
-which he can participate in the consensus and propose new blocks.
-4. Counselor - is a user that can participate in the governance process but does not
-operate a validator node.
-5. Hunter - node operator that verifies and confirms computation occurring on the exchange
-zones.
+3. Validator - is a Kira Hub operator to whom stake-able assets are bonded. Validators can participate in the consensus and propose new blocks for which they can claim commission fees along other rewards such as exchange fees which guarantee they can sustain operations and maitain the network operational.
+4. Counselor - is a user that can participate in the governance process but does not operate a validator node.
+5. Hunter - node operator that verifies and confirms computation occurring on the exchange zone thus guarding the network against malicious cartels and other undesired on-chain activity.
 
 ## Q2: How will delegators make money?
-Delegators are incentivised in block rewards, network fee rewards and exchange fee
+Delegators are incentivized by block rewards, network fee rewards and exchange fee
 rewards. Block rewards are proportional to the stake bond (globally) while the network fee
 rewards and exchange fee rewards are proportional to the stake bond to each particular
 validator. The delegators are eligible to earn up to 50% of all exchange fees, while the remaining
@@ -40,6 +37,10 @@ from block rewards at ratio no greater than inflation rate, while their locked a
 slashed. The tokens that counselors lock are not transferable in form of shares compared to
 tokens that the delegators stake. Counselors cannot lock more than x% (defined by
 governance) of the tokens they have.
+
+Counselors need incentives to be involved, one of the ways is allowing them to vest their already staked tokens and receive some small salary in proportion to amount of those tokens staked thus slightly decreasing the available supply and crating positive price pressure for KEX.
+
+We can actually enforce it thanks to code of conduct that will exclude centralized exchanges and other entities from gov that allow "pooling" in order to make more revenue of this mechanism.
 
 
 ## Q5: Does having a large validator set decrease the speed of the network?
