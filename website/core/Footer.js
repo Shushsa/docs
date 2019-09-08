@@ -61,6 +61,12 @@ class Footer extends React.Component {
 
           </div>
           <div>
+          <a
+              href="https://kiraex.com/"
+              target="_blank"
+              rel="noreferrer noopener">
+              Kira Exchange
+            </a>
             <h5>Contact us</h5>
             <h5>hello@kiraex.com</h5>
           </div>
