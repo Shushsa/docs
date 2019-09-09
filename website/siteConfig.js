@@ -5,13 +5,13 @@ const users = [
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
     infoLink: 'https://www.facebook.com',
-    pinned: true,
+    pinned: false,
   },
 ];
 
 const siteConfig = {
   title: 'KiraEx', // Title for your website.
-  tagline: 'Kira Interchain Exchange docs',
+  tagline: 'Interchain Exchange',
   url: 'https://kiraex.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -23,23 +23,21 @@ const siteConfig = {
   organizationName: 'Kira-Exchange',
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {blog: true, label: 'Blog'},
-  ],
+  headerLinks: [],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/KiraIcon.png',
+  footerIcon: 'img/KiraIcon.png',
+  favicon: 'img/KiraIcon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#000103',
-    secondaryColor: '#3b3b3b',
+    //f5f5f5
+    primaryColor: '#C792DF',
+    secondaryColor: '#FFFFFF',
   },
 
   /* Custom fonts for website */
@@ -77,7 +75,7 @@ const siteConfig = {
   twitterImage: 'img/undraw_tweetstorm.svg',
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  enableUpdateBy: false,
 
   enableUpdateTime: true,
 
