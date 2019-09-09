@@ -3,7 +3,8 @@ id: introduction
 title: Welcome to Kira!
 sidebar_label: Welcome
 ---
-<img src="/img/KiraMain.png"  width="430">
+
+<img src="assets/KiraMain.png"  width="500">
 
 Kira is building a first truly decentralized Interchain Exchange that does not require any middleman between blockchain and the user.
 
