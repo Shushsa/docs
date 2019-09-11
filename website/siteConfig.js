@@ -12,7 +12,7 @@ const users = [
 const siteConfig = {
   title: 'KiraEx', // Title for your website.
   tagline: 'Interchain Exchange',
-  url: 'https://kiraex.com', // Your website URL
+  url: 'https://kiraex.com/docs', // Your website URL
   baseUrl: '/', 
 
   cname: 'kiraex.com',
