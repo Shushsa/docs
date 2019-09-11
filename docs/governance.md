@@ -3,16 +3,20 @@ id: governance
 title: Governance
 sidebar_label: Governance
 ---
+
 ## Q1: What is Kira’s governance structure?
+
 Governance set of Kira consists of the following two kinds of actors:
+
 1. Validators - must be active operators and not jailed. They have equal voting power to all
-other governance set members. Can vote VETO on governance proposals. (1/2 of all
-validators required). Validators will account for >= 1/3rd of all governance seats.
+   other governance set members. Can vote VETO on governance proposals. (1/2 of all
+   validators required). Validators will account for >= 1/3rd of all governance seats.
 2. Council Members - do not operate a validator node. They have equal voting power to all
-other governance set members but can NOT vote VETO on governance proposals.
-Counselors account for < 2/3'rds of all governance seats.
+   other governance set members but can NOT vote VETO on governance proposals.
+   Counselors account for < 2/3'rds of all governance seats.
 
 ## Q2: Why should I become a Kira partner?
+
 Becoming a Kira Partner allows you to participate as a validator in the token mining
 event during the launch of the network and earn revenue from block, network and exchange fee
 rewards as well as mining KEX token. In addition to becoming a validator, partners will also be
@@ -24,6 +28,7 @@ thus allowing them to earn a portion of the revenue from the exchange. However, 
 cannot mine or acquire any more tokens than any other validator.
 
 ## Q3: So council members are not required to be validators? What are the requirements to be one?
+
 Council members are not validators. Initially, governance set will consist of only
 validators, eventually they will start electing additional members to the governance set, who are
 not validators but can vote on the governance proposals. Those actors are called counselors. In
@@ -34,6 +39,7 @@ certain technical skills that will benefit the Kira Network, or others to be dec
 the technocratic governance system.
 
 ## Q4: Where does the governance for Kira’s IBC logic happens?
+
 Governance always happens on the most secure layer. It's a master-slave approach to
 governance, regardless of what is decided on the hub zones have to comply with it, unless they
 are just private chains or foreign bridges with independent security model.
@@ -44,6 +50,7 @@ is that important governance decisions can be taken on the more secure layers an
 less secure ones.
 
 ## Q5: What is Technocracy?
+
 In the context of Kira, technocracy is a governance system where voting power is not
 proportional to your wealth but distributed equally among most technically skilled and trusted
 actors in the network who provide their input and help Kira constantly progress and expand.
@@ -52,6 +59,7 @@ the delegators but voting power are equal among entire governance set which prev
 vulnerabilities due to stake centralization.
 
 ## Q6: What is enlightened democracy?
+
 The enlightened democracy is the next stage of evolution in the technocracy governance
 system. During the technocracy era, only validators can vote on governance proposals to evolve, manage and improving the network. This initial set of validators is
 technically inclined set of actors operating and governing the network in accordance with the Code
