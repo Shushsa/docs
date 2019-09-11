@@ -17,7 +17,7 @@ const siteConfig = {
 
   cname: 'kiraex.com',
   projectName: 'docs',
-  organizationName: 'Kira-Exchange',
+  organizationName: 'kira-ex',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [],
