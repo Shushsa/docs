@@ -12,13 +12,10 @@ const users = [
 const siteConfig = {
   title: 'KiraEx', // Title for your website.
   tagline: 'Interchain Exchange',
-  url: 'https://kiraex.github.io', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  url: 'https://kiraex.com', // Your website URL
+  baseUrl: '/docs', 
 
-  // Used for publishing and more
+  cname: 'kiraex.com',
   projectName: 'docs',
   organizationName: 'Kira-Exchange',
 
@@ -73,11 +70,6 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
-
-  // Show documentation's last contributor's name.
-  enableUpdateBy: false,
-
-  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

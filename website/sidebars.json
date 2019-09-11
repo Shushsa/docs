@@ -1,7 +1,11 @@
 {
   "docs": {
     "Introduction": ["introduction"],
-    "Frequently Asked Questions": ["general", "exchange", "ecosystem", "governance"]
+    "Frequently Asked Questions": [
+      "general",
+      "exchange",
+      "ecosystem",
+      "governance"
+    ]
   }
-
 }
