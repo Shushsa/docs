@@ -13,7 +13,7 @@ const siteConfig = {
   title: 'KiraEx', // Title for your website.
   tagline: 'Interchain Exchange',
   url: 'https://kiraex.com', // Your website URL
-  baseUrl: '/', 
+  baseUrl: '/docs/', 
 
   projectName: 'docs',
   organizationName: 'kira-ex',
@@ -65,7 +65,7 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
-
+  docsUrl: '',
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
