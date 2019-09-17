@@ -13,9 +13,8 @@ const siteConfig = {
   title: 'KiraEx', // Title for your website.
   tagline: 'Interchain Exchange',
   url: 'https://kiraex.com', // Your website URL
-  baseUrl: '/', 
+  baseUrl: '/docs', 
 
-  cname: 'kiraex.com',
   projectName: 'docs',
   organizationName: 'kira-ex',
 
