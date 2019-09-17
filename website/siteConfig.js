@@ -20,7 +20,6 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [],
-  docsUrl = "",
 
   // If you have users set above, you add it here:
   users,
@@ -73,7 +72,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  // repoUrl: 'https://github.com/Kira-Exchange/docs',
+repoUrl: 'https://github.com/Kira-Exchange/docs/',
 };
 
 module.exports = siteConfig;
