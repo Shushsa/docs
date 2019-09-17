@@ -13,13 +13,14 @@ const siteConfig = {
   title: 'KiraEx', // Title for your website.
   tagline: 'Interchain Exchange',
   url: 'https://kiraex.com', // Your website URL
-  baseUrl: '/', 
+  baseUrl: '/docs/', 
 
   projectName: 'docs',
   organizationName: 'kira-ex',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [],
+  docsUrl = "",
 
   // If you have users set above, you add it here:
   users,
