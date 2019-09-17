@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Exchange · KiraEx</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Q1: Will you have a Trollbox?"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Exchange · KiraEx"/><meta property="og:type" content="website"/><meta property="og:url" content="https://kiraex.com/"/><meta property="og:description" content="## Q1: Will you have a Trollbox?"/><meta property="og:image" content="https://kiraex.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://kiraex.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/KiraIcon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/KiraIcon.png" alt="KiraEx"/><h2 class="headerTitleWithLogo">KiraEx</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"></ul></nav></div></header></div></div><div class="navPusher singleRowMobileNav"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Frequently Asked Questions</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Introduction</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/introduction">Welcome</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Frequently Asked Questions</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/general">General</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/exchange">Exchange</a></li><li class="navListItem"><a class="navItem" href="/docs/ecosystem">Kira&#x27;s Ecosystem</a></li><li class="navListItem"><a class="navItem" href="/docs/governance">Governance</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Exchange</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="q1-will-you-have-a-trollbox"></a><a href="#q1-will-you-have-a-trollbox" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q1: Will you have a Trollbox?</h2>
+<p>We can implement our own, where messages will be stored on-chain or can integrate a decentralized chat of one of our partners such as Sentinel dChat.</p>
+<h2><a class="anchor" aria-hidden="true" id="q2-most-centralized-exchanges-offer-lower-fees-or-other-incentives-for-market-makers-do-you-have-any-incentives-to-attract-market-makers"></a><a href="#q2-most-centralized-exchanges-offer-lower-fees-or-other-incentives-for-market-makers-do-you-have-any-incentives-to-attract-market-makers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q2: Most centralized exchanges offer lower fees or other incentives for market makers, do you have any incentives to attract market makers?</h2>
+<p>There are four ways that we can incentive liquidity providers.</p>
+<ol>
+<li>Liquidity pool embedded into the consensus engine.</li>
+<li>The use of the governance controlled community fund or on-chain contracting, and direct MM/LP incentivization.</li>
+<li>Instant finality of the consensus allowing MM/LP to immensely reduce risk thus have way
+smaller spreads and cost of operation than on CEX'es.</li>
+<li>Partnership agreements, through which we will be granting validators seats during the token
+mining event to MM's and LP's wishing to integrate with Kira.</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="q3-idex-recently-went-full-kyc-on-lp-you-state-that-users-will-never-be-forced-to-do-kyc-for-crypto-to-crypto-pairs-how-can-you-ensure-that"></a><a href="#q3-idex-recently-went-full-kyc-on-lp-you-state-that-users-will-never-be-forced-to-do-kyc-for-crypto-to-crypto-pairs-how-can-you-ensure-that" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q3: IDEX recently went full KYC, on LP you state that users will never be forced to do KYC for crypto to crypto pairs. How can you ensure that?</h2>
+<p>If you hold custody of user funds then you need to implement the KYC. This is the law in most jurisdictions. Kira does not operate an exchange and does not hold custody of user funds. If you want to exit fiat from Kira you can use the gateways of any of the 3rd party companies
+with appropriate licenses, such as Bity, E-money, Menapay, etc. These companies can KYC
+their customers. It all varies between jurisdictions, for example in case of Bity you can cash out
+up to $5000 per month without any KYC.</p>
+<h2><a class="anchor" aria-hidden="true" id="q4-how-is-kira-better-than-binance-dex-which-is-also-using-tendermint-consensus"></a><a href="#q4-how-is-kira-better-than-binance-dex-which-is-also-using-tendermint-consensus" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q4: How is Kira better than Binance DEX which is also using Tendermint consensus?</h2>
+<p>Kira has a unique staking and security model, which induces both liquidity and security
+into the network. Furthermore, Kira Exchange is parallelizable which allows for higher
+throughput. Kira also possesses higher accessibility because it does not require any hosted
+backend or frontend that is operated by any centralized entity. Kira also does not hold custody
+over user funds where Binance DEX does, so the trading is not trustless there yet. Kira is a self-sustained and self-governed network without any authority controlling any aspect of it, including the development.</p>
+<h2><a class="anchor" aria-hidden="true" id="q5-most-dexs-suffer-from-slow-order-book-updates-how-will-kira-solve-this-issue"></a><a href="#q5-most-dexs-suffer-from-slow-order-book-updates-how-will-kira-solve-this-issue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q5: Most DEX’s suffer from slow order book updates, how will Kira solve this issue?</h2>
+<p>We have a hybrid consensus, it means we use curated validator set where execution
+happens, which makes it extremely fast, while the settlement layer where users hold the
+majority of their coins have way larger validator set.</p>
+<h2><a class="anchor" aria-hidden="true" id="q6-most-dexes-can-only-list-tokens-from-platforms-on-which-they-are-built-for-example-etherdelta-only-has-erc20-tokens-will-kira-offer-a-larger-variety-of-options"></a><a href="#q6-most-dexes-can-only-list-tokens-from-platforms-on-which-they-are-built-for-example-etherdelta-only-has-erc20-tokens-will-kira-offer-a-larger-variety-of-options" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q6: Most dex'es can only list tokens from platforms on which they are built, for example Etherdelta only has erc20 tokens, will Kira offer a larger variety of options?</h2>
+<p>We are an Interchain Exchange and we connect to both Cosmos, Polkadot and can have
+our bridges to foreign public and private blockchains Which implies that we can support any
+token originating from any network in the whole crypto ecosystem as long as the tokens we
+connect to have deterministic or probabilistic finality within some reasonable timeframe.</p>
+<h2><a class="anchor" aria-hidden="true" id="q7-what-will-be-the-process-for-token-listing-how-will-you-filter-through-scams-listing-fee-kyc-for-project-and-community-votes"></a><a href="#q7-what-will-be-the-process-for-token-listing-how-will-you-filter-through-scams-listing-fee-kyc-for-project-and-community-votes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q7: What will be the process for token listing? How will you filter through scams, listing fee, kyc for project and community votes.</h2>
+<p>Any token can be traded without permissions, however, the governance will hold power to
+curate which tokens can trade within which exchange zones. There might be exchange zones
+on which highly liquid and trusted assets can trade and other zones on which unknown, not
+trusted token will trade. To list any token, you have to vest one of the whitelisted
+stake-able assets to prevent spam.</p>
+<h2><a class="anchor" aria-hidden="true" id="q8-how-will-kira-implement-liquidity-pool"></a><a href="#q8-how-will-kira-implement-liquidity-pool" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q8: How will Kira implement liquidity pool?</h2>
+<p>The first iteration of the liquidity pool system will be enabling transfers of stake-able
+assets (tokens representing shares of the staked coins) in conjunction with the Multi Bonded
+Proof of Stake consensus. This creates a self-balancing system that increases the liquidity of the
+order books as well as increases the security of the network.
+For example, by staking Bitcoin on Kira you can earn passive income from the exchange fees
+when your BTC is locked. You can unlock your BTC by waiting 21 days for the unbound to occur
+but if you can't wait for any reason you can sell a share representing staked BTC (sBTC) for
+not-staked BTC to claim it immediately.</p>
+<p>People want to earn rewards but sometimes just can't wait to unbond staked assets. The
+opportunity to use the exchange and immediately liquidate staked positions increases along
+the growing amount of stake bonded. This creates a major opportunity for everyone who does not
+immediately requires access to their cryptocurrencies and injects external value to the network
+through the exchange fees.</p>
+<p>The value of shares of staked and non-staked coins is predictable because you can always
+claim your tokens back 1:1 for each share of the token you have as long as the validator from
+whom shares originate - is not slashed. Demand for the share liquidation induces growing
+opportunity for speculators who can buy cheap shares and can unbond them by simply
+awaiting the unbound time to claim the non-staked tokens.</p>
+<p>As a final part, a dynamic inflation mechanism ensures demand for staking wile governance
+controlled slashing guarantees maximum security of stake bonded. This creates a self-sustaining liquidity pool of all whitelisted stake-able assets. Demand to liquidate shares of
+staked coins increases the use of exchange and growing revenues of the network from the fees.
+Growing revenues imply a growing amount of delegation and security of the network and finally
+increases the demand to liquidate shares of staked coins.</p>
+<h2><a class="anchor" aria-hidden="true" id="q9-how-do-you-prevent-fake-asset-listing"></a><a href="#q9-how-do-you-prevent-fake-asset-listing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q9: How do you prevent fake asset listing?</h2>
+<p>The governance set is curating which tokens can be traded on which execution zone.
+The non-trusted or non-approved assets can have their dedicated exchange zone where
+they can be traded in a permissionless manner. This way users can be aware that if the token is not
+available on the zone where trusted tokens can trade, it implies that the network did not
+recognize the token yet and users trade it on a designated zone at their own risk.</p>
+<h2><a class="anchor" aria-hidden="true" id="q10-how-do-you-prevent-spamming-listing"></a><a href="#q10-how-do-you-prevent-spamming-listing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q10: How do you prevent spamming listing?</h2>
+<p>To list a new token on the exchange, there has to be a minimum amount of
+whitelisted tokens locked to enable trading of the new asset. The amount that has to be
+locked is defined by governance. Everyone will be able to lock more assets, meaning that
+not only the person that requests the listing is in control of whether or no trading of the token is
+possible. In the case where the minimum requirement of locked assets is not met or tokens are
+unlocked, a token no longer can be traded.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/general"><span class="arrow-prev">← </span><span>General</span></a><a class="docs-next button" href="/docs/ecosystem"><span>Kira&#x27;s Ecosystem</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#q1-will-you-have-a-trollbox">Q1: Will you have a Trollbox?</a></li><li><a href="#q2-most-centralized-exchanges-offer-lower-fees-or-other-incentives-for-market-makers-do-you-have-any-incentives-to-attract-market-makers">Q2: Most centralized exchanges offer lower fees or other incentives for market makers, do you have any incentives to attract market makers?</a></li><li><a href="#q3-idex-recently-went-full-kyc-on-lp-you-state-that-users-will-never-be-forced-to-do-kyc-for-crypto-to-crypto-pairs-how-can-you-ensure-that">Q3: IDEX recently went full KYC, on LP you state that users will never be forced to do KYC for crypto to crypto pairs. How can you ensure that?</a></li><li><a href="#q4-how-is-kira-better-than-binance-dex-which-is-also-using-tendermint-consensus">Q4: How is Kira better than Binance DEX which is also using Tendermint consensus?</a></li><li><a href="#q5-most-dexs-suffer-from-slow-order-book-updates-how-will-kira-solve-this-issue">Q5: Most DEX’s suffer from slow order book updates, how will Kira solve this issue?</a></li><li><a href="#q6-most-dexes-can-only-list-tokens-from-platforms-on-which-they-are-built-for-example-etherdelta-only-has-erc20-tokens-will-kira-offer-a-larger-variety-of-options">Q6: Most dex'es can only list tokens from platforms on which they are built, for example Etherdelta only has erc20 tokens, will Kira offer a larger variety of options?</a></li><li><a href="#q7-what-will-be-the-process-for-token-listing-how-will-you-filter-through-scams-listing-fee-kyc-for-project-and-community-votes">Q7: What will be the process for token listing? How will you filter through scams, listing fee, kyc for project and community votes.</a></li><li><a href="#q8-how-will-kira-implement-liquidity-pool">Q8: How will Kira implement liquidity pool?</a></li><li><a href="#q9-how-do-you-prevent-fake-asset-listing">Q9: How do you prevent fake asset listing?</a></li><li><a href="#q10-how-do-you-prevent-spamming-listing">Q10: How do you prevent spamming listing?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>Community</h5><a href="https://t.me/kirainterex" target="_blank" rel="noreferrer noopener">Telegram</a><a href="https://twitter.com/kiraex" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://www.linkedin.com/company/kiraex" target="_blank" rel="noreferrer noopener">LinkedIn</a><a href="https://medium.com/kira-core" target="_blank" rel="noreferrer noopener">Medium</a><a href="https://github.com/kira-ex" target="_blank" rel="noreferrer noopener">Github</a></div><div><a href="https://kiraex.com/" target="_blank" rel="noreferrer noopener">Kira Exchange</a><h5>Contact us</h5><h5>hello@kiraex.com</h5></div></section><section class="copyright">Copyright © 2019 KiraEx</section></footer></div></body></html>
