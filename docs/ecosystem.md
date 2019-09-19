@@ -4,7 +4,7 @@ title: Kira's Ecosystem
 sidebar_label: Kira's Ecosystem
 ---
 
-## Q1: What are the various roles in Kira ecosystem?
+## Q1: What are the various roles in the Kira ecosystem?
 
 1. User - is a person who owns whitelisted fee tokens, such as BTC, ETH, KEX, etc, and interacts with the Kira exchange.
 2. Delegator - is a user who owns stakeable assets and bonds them to validators in order to help secure the network.
