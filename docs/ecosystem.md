@@ -4,13 +4,13 @@ title: Kira's Ecosystem
 sidebar_label: Kira's Ecosystem
 ---
 
-## Q1: What are the possible roles in Kira Network ecosystem?
+## Q1: What are the various roles in Kira ecosystem?
 
-1. User - is a person who owns any whitelisted fee tokens, such as BTC, ETH, KEX, etc, and can interact with the exchange.
-2. Delegator - is a user who owns stake-able assets and bonds them to the validator of choice to secure the network.
-3. Validator - is a Kira Hub operator to whom stake-able assets are bonded. Validators can participate in the consensus and propose new blocks for which they can claim commission fees along with other rewards such as exchange fees which guarantee they can sustain operations and maintain the network operational.
-4. Counselor - is a user that can participate in the governance process but does not operate a validator node.
-5. Hunter - node operator that verifies and confirms computation occurring on the exchange zone thus guarding the network against malicious cartels and other undesired on-chain activity.
+1. User - is a person who owns whitelisted fee tokens, such as BTC, ETH, KEX, etc, and interacts with the Kira exchange.
+2. Delegator - is a user who owns stakeable assets and bonds them to validators in order to help secure the network.
+3. Validator - is a Kira Hub operator to whom stakeable assets are bonded. Validators participate in consensus and propose new blocks, and in return, they collect commission fees and other rewards such as exchange fees. This cash-flow enables validators to sustain operations and keep the network secure.
+4. Counselor - is a user who participates in the process of governance but does not operate a validator node.
+5. Hunter - is a node operator who vets computations occurring across exchange zones and reports inconsistencies, thus guarding the network against malicious cartels and other undesirable on-chain activity.
 
 ## Q2: How will delegators make money?
 
