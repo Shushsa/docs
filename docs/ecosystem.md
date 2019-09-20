@@ -10,23 +10,24 @@ sidebar_label: Kira's Ecosystem
 2. Delegator - is a user who owns stakeable assets and bonds them to validators in order to help secure the network.
 3. Validator - is a Kira Hub operator to whom stakeable assets are bonded. Validators participate in consensus and propose new blocks, and in return, they collect commission fees and other rewards such as exchange fees. This cash-flow enables validators to sustain operations and keep the network secure.
 4. Counselor - is a user who participates in the process of governance but does not operate a validator node.
-5. Hunter - is a node operator who vets computations occurring across exchange zones and reports inconsistencies, thus guarding the network against malicious cartels and other undesirable on-chain activity.
+5. Hunter - is a node operator who vets computations occurring across exchange zones and guards the network against malicious cartels and other undesirable on-chain activity. Hunters report any state inconsistencies they discover, and are rewarded with a share of the fines subsequently imposed on misbehaving validators by the protocol.
 
 ## Q2: How will delegators make money?
 
-Delegators are incentivized by block rewards, network fee rewards, and exchange fee rewards. Block rewards are proportional to the stake bond (globally) while the network fee rewards and exchange fee rewards are proportional to the stake bond to each particular validator. The delegators are eligible to earn up to 50% of all exchange fees, while the remaining 50% is credited to validators. Delegators can bond any assets that are whitelisted as stake-able and earn revenue from the exchange even if they do no own KEX token.
+Delegators are incentivized by block, network fee, and exchange fee rewards. Block rewards are proportional to stake bonded (globally) while the network and exchange fee rewards are proportional to the stake bonded to each individual validator. Delegators are eligible to earn up to 50% of all exchange fees, while the remaining half is credited to validators. Delegators can bond any assets that are whitelisted as being stakeable, and earn revenue from the exchange, even if they do no own any KEX tokens.
 
 ## Q3: How will validators make money?
 
-Validators earn commission fees from block rewards that delegators receive. Commission
-fees for block rewards are defined individually by each validator, in range of 0% to 100%, presumably ~%10 as seen on most DPoS.
-Furthermore, each validator is eligible to 50% of all exchange and network fees from each block
-proposed. Validators could also be delegators and self-bond the profits they generate to gain
-compound interest. Kira Hub validators with the highest uptime and stake bonded can be
-elected as the exchange zone validators, which allows them to earn even greater revenues. In
-the case where the exchange zone will not be generating enough network and exchange fee
-rewards, validators can be incentivized through the community pool and on-chain contacting
-system to ensure that the exchange is operational under all possible market conditions.
+Validators earn commissions on block rewards received by delegators. Commission
+fees for block rewards are defined individually by each validator, in range of 0% to 100%, with 
+the likely average being around 10% (based on the values observed in production PoS networks).
+Furthermore, each validator is eligible for 50% of all exchange and network fees from each block
+proposed. Validators can also be delegators and self-bond their profits to generate compound 
+interest. Kira Hub validators with the highest uptime and bonded stake can be
+elected as exchange zone validators, which allows them to earn even greater revenues. 
+In the event that exchange zones fail to generate sufficient network and exchange fee
+rewards to cover running costs, validators can be further incentivized through the community pool 
+and on-chain contacting system to ensure that the exchange is operational under all market conditions.
 
 ## Q4: How do counselors make money?
 
