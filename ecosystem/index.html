@@ -60,20 +60,21 @@
 <li>Delegator - is a user who owns stakeable assets and bonds them to validators in order to help secure the network.</li>
 <li>Validator - is a Kira Hub operator to whom stakeable assets are bonded. Validators participate in consensus and propose new blocks, and in return, they collect commission fees and other rewards such as exchange fees. This cash-flow enables validators to sustain operations and keep the network secure.</li>
 <li>Counselor - is a user who participates in the process of governance but does not operate a validator node.</li>
-<li>Hunter - is a node operator who vets computations occurring across exchange zones and reports inconsistencies, thus guarding the network against malicious cartels and other undesirable on-chain activity.</li>
+<li>Hunter - is a node operator who vets computations occurring across exchange zones and guards the network against malicious cartels and other undesirable on-chain activity. Hunters report any state inconsistencies they discover, and are rewarded with a share of the fines subsequently imposed on misbehaving validators by the protocol.</li>
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="q2-how-will-delegators-make-money"></a><a href="#q2-how-will-delegators-make-money" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q2: How will delegators make money?</h2>
-<p>Delegators are incentivized by block rewards, network fee rewards, and exchange fee rewards. Block rewards are proportional to the stake bond (globally) while the network fee rewards and exchange fee rewards are proportional to the stake bond to each particular validator. The delegators are eligible to earn up to 50% of all exchange fees, while the remaining 50% is credited to validators. Delegators can bond any assets that are whitelisted as stake-able and earn revenue from the exchange even if they do no own KEX token.</p>
+<p>Delegators are incentivized by block, network fee, and exchange fee rewards. Block rewards are proportional to stake bonded (globally) while the network and exchange fee rewards are proportional to the stake bonded to each individual validator. Delegators are eligible to earn up to 50% of all exchange fees, while the remaining half is credited to validators. Delegators can bond any assets that are whitelisted as being stakeable, and earn revenue from the exchange, even if they do no own any KEX tokens.</p>
 <h2><a class="anchor" aria-hidden="true" id="q3-how-will-validators-make-money"></a><a href="#q3-how-will-validators-make-money" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q3: How will validators make money?</h2>
-<p>Validators earn commission fees from block rewards that delegators receive. Commission
-fees for block rewards are defined individually by each validator, in range of 0% to 100%, presumably ~%10 as seen on most DPoS.
-Furthermore, each validator is eligible to 50% of all exchange and network fees from each block
-proposed. Validators could also be delegators and self-bond the profits they generate to gain
-compound interest. Kira Hub validators with the highest uptime and stake bonded can be
-elected as the exchange zone validators, which allows them to earn even greater revenues. In
-the case where the exchange zone will not be generating enough network and exchange fee
-rewards, validators can be incentivized through the community pool and on-chain contacting
-system to ensure that the exchange is operational under all possible market conditions.</p>
+<p>Validators earn commissions on block rewards received by delegators. Commission
+fees for block rewards are defined individually by each validator, in range of 0% to 100%, with
+the likely average being around 10% (based on the values observed in production PoS networks).
+Furthermore, each validator is eligible for 50% of all exchange and network fees from each block
+proposed. Validators can also be delegators and self-bond their profits to generate compound
+interest. Kira Hub validators with the highest uptime and bonded stake can be
+elected as exchange zone validators, which allows them to earn even greater revenues.
+In the event that exchange zones fail to generate sufficient network and exchange fee
+rewards to cover running costs, validators can be further incentivized through the community pool
+and on-chain contacting system to ensure that the exchange is operational under all market conditions.</p>
 <h2><a class="anchor" aria-hidden="true" id="q4-how-do-counselors-make-money"></a><a href="#q4-how-do-counselors-make-money" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q4: How do counselors make money?</h2>
 <p>Counselors are incentivized by being able to lock their KEX tokens and earn revenue
 from block rewards at a ratio no greater than the inflation rate, while their locked assets cannot be
