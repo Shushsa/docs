@@ -23,23 +23,25 @@ fees for block rewards are defined individually by each validator, in range of 0
 the likely average being around 10% (based on the values observed in production PoS networks).
 Furthermore, each validator is eligible for 50% of all exchange and network fees from each block
 proposed. Validators can also be delegators and self-bond their profits to generate compound 
-interest. Kira Hub validators with the highest uptime and bonded stake can be
+returns. Kira Hub validators with the highest uptime and bonded stake can be
 elected as exchange zone validators, which allows them to earn even greater revenues. 
 In the event that exchange zones fail to generate sufficient network and exchange fee
 rewards to cover running costs, validators can be further incentivized through the community pool 
-and on-chain contacting system to ensure that the exchange is operational under all market conditions.
+and on-chain contacting system to ensure that the exchange remains operational under all market conditions.
 
 ## Q4: How do counselors make money?
 
-Counselors are incentivized by being able to lock their KEX tokens and earn revenue
-from block rewards at a ratio no greater than the inflation rate, while their locked assets cannot be
-slashed. The tokens that counselors lock are not transferable in form of shares compared to
-tokens that the delegators stake. Counselors cannot lock more than x% (defined by
-governance) of the tokens they have.
+Counselors are permitted to vest a small (governance defined) percentage of their total KEX tokens, and earn 
+revenue from block rewards, at a ratio no greater than the prevailing inflation rate. These vested tokens 
+are not subject to slashing, but they are also not exchangeable for the transferable 'token shares' that 
+delegators receive when they stake assets. 
 
-Counselors need incentives to be involved, one of the ways is allowing them to vest their already staked tokens and receive some small salary in proportion to the amount of those tokens staked thus slightly decreasing the available supply and crating positive price pressure for KEX.
+Counselors require incentives to remain active participants in governance, and the ability to vest their 
+(already staked) tokens offers them a small salary in proportion to the amount of tokens they lock. 
+It also slightly decreases the available supply of KEX and helps generate upward price pressure for the asset.
 
-We can enforce it thanks to the code of conduct that will exclude centralized exchanges and other entities from gov that allow "pooling" to make more revenue of this mechanism.
+The above is enforced via the Code of Conduct that excludes centralized exchanges, and expressly prohibits 
+the 'pooling' of assets in order to game this mechanism.
 
 ## Q5: Does having a large validator set decrease the speed of the network?
 
