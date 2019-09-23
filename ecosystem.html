@@ -70,19 +70,21 @@ fees for block rewards are defined individually by each validator, in range of 0
 the likely average being around 10% (based on the values observed in production PoS networks).
 Furthermore, each validator is eligible for 50% of all exchange and network fees from each block
 proposed. Validators can also be delegators and self-bond their profits to generate compound
-interest. Kira Hub validators with the highest uptime and bonded stake can be
+returns. Kira Hub validators with the highest uptime and bonded stake can be
 elected as exchange zone validators, which allows them to earn even greater revenues.
 In the event that exchange zones fail to generate sufficient network and exchange fee
 rewards to cover running costs, validators can be further incentivized through the community pool
-and on-chain contacting system to ensure that the exchange is operational under all market conditions.</p>
+and on-chain contacting system to ensure that the exchange remains operational under all market conditions.</p>
 <h2><a class="anchor" aria-hidden="true" id="q4-how-do-counselors-make-money"></a><a href="#q4-how-do-counselors-make-money" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q4: How do counselors make money?</h2>
-<p>Counselors are incentivized by being able to lock their KEX tokens and earn revenue
-from block rewards at a ratio no greater than the inflation rate, while their locked assets cannot be
-slashed. The tokens that counselors lock are not transferable in form of shares compared to
-tokens that the delegators stake. Counselors cannot lock more than x% (defined by
-governance) of the tokens they have.</p>
-<p>Counselors need incentives to be involved, one of the ways is allowing them to vest their already staked tokens and receive some small salary in proportion to the amount of those tokens staked thus slightly decreasing the available supply and crating positive price pressure for KEX.</p>
-<p>We can enforce it thanks to the code of conduct that will exclude centralized exchanges and other entities from gov that allow &quot;pooling&quot; to make more revenue of this mechanism.</p>
+<p>Counselors are permitted to vest a small (governance defined) percentage of their total KEX tokens, and earn
+revenue from block rewards, at a ratio no greater than the prevailing inflation rate. These vested tokens
+are not subject to slashing, but they are also not exchangeable for the transferable 'token shares' that
+delegators receive when they stake assets.</p>
+<p>Counselors require incentives to remain active participants in governance, and the ability to vest their
+(already staked) tokens offers them a small salary in proportion to the amount of tokens they lock.
+It also slightly decreases the available supply of KEX and helps generate upward price pressure for the asset.</p>
+<p>The above is enforced via the Code of Conduct that excludes centralized exchanges, and expressly prohibits
+the 'pooling' of assets in order to game this mechanism.</p>
 <h2><a class="anchor" aria-hidden="true" id="q5-does-having-a-large-validator-set-decrease-the-speed-of-the-network"></a><a href="#q5-does-having-a-large-validator-set-decrease-the-speed-of-the-network" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Q5: Does having a large validator set decrease the speed of the network?</h2>
 <p>No, due to the Hub-spoke architecture. The settlement layer (Kira Hub) requires a large
 number of validators to ensure the security of all assets in the network. Trades do not occur on the Kira Hub, they occur on the exchange zones with smaller validator sets which ensure high
