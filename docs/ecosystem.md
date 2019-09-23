@@ -32,15 +32,15 @@ and on-chain contacting system to ensure that the exchange remains operational u
 ## Q4: How do counselors make money?
 
 Counselors are permitted to vest a small (governance defined) percentage of their total KEX tokens, and earn 
-revenue from block rewards, at a ratio no greater than the prevailing inflation rate. These vested tokens 
+revenue from block rewards at a ratio no greater than the prevailing inflation rate. These vested tokens 
 are not subject to slashing, but they are also not exchangeable for the transferable 'token shares' that 
 delegators receive when they stake assets. 
 
 Counselors require incentives to remain active participants in governance, and the ability to vest their 
-(already staked) tokens offers them a small salary in proportion to the amount of tokens they lock. 
+(already staked) tokens offers them a small salary in proportion to the number of tokens they choose to lock. 
 It also slightly decreases the available supply of KEX and helps generate upward price pressure for the asset.
 
-The above is enforced via the Code of Conduct that excludes centralized exchanges, and expressly prohibits 
+The above is enforced via a Code of Conduct that explicitly excludes centralized exchanges and prohibits 
 the 'pooling' of assets in order to game this mechanism.
 
 ## Q5: Does having a large validator set decrease the speed of the network?
