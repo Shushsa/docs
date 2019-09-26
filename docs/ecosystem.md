@@ -59,10 +59,10 @@ to zone validator status. Zone validators earn half of the exchange fee rewards 
 operate, and this revenue is likely to be shared amongst a very small validator set, so validators 
 will complete fiercely for the governance assigned right to validate on the most lucrative zones. 
 
-Exchange is like a supermarket you go there because everything is there even if you usually
-buy only a few products. Clients go to buy X but end up buying way more than they anticipated +
-always return because do not even have to think if X is there or not. Sometimes it's worth to
-have products no one buys because it's boosting your overall sales. For this reason, even if the
-zone is new and bootstrapping (or not generating enough revenue from fees to sustain validator
-operations for any other reasons), zone validators can request a minimum salary through
-the on-chain contracting system (on the Kira Hub) to guarantee economical sustainability.
+Exchanges are like supermarkets; you go there because you know they're likely to have everything you need, 
+even if you usually only buy a few products. Customers who visit with the intention of buying a specific 
+item often end up buying much more than they anticipated, so it's worthwhile for supermarkets to stock many 
+'long-tail' products that only few people purchase, because it boosts overall sales. For this reason, 
+if a zone is new or in an early bootstrapping phase (e.g. not currently generating enough revenue 
+from fees to sustain operations) zone validators can request a 'basic income' via the on-chain 
+contracting system (on the Kira Hub) to act as a bridge to future economic sustainability.
