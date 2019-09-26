@@ -45,16 +45,20 @@ the 'pooling' of assets in order to game this mechanism.
 
 ## Q5: Does having a large validator set decrease the speed of the network?
 
-No, due to the Hub-spoke architecture. The settlement layer (Kira Hub) requires a large
-number of validators to ensure the security of all assets in the network. Trades do not occur on the Kira Hub, they occur on the exchange zones with smaller validator sets which ensure high
-throughput.
+No, because Kira employs a hub-and-spoke architecture. In order to ensure the safety of all assets in the network, 
+the settlement layer (the hub) requires a large validator set. However, trades do not occur on the Kira Hub, 
+rather they occur on exchange zones (the spokes) which have smaller validator sets for high-throughput.
 
-## Q6: What is the tokenomics model at the zone level? Do zone validators must also be hub validators?
+## Q6: How do the tokenomics operate at the zone level? Must all zone validators also be hub validators?
 
-Yes, you have to be a hub validator and have associated stake there, otherwise, you would not be slashable. To be precise, zone validators participate in the 'bonded' Proof of Authority consensus. Becoming a Zone validator is a privilege, only the best, most trusted hub validators with the
-highest uptime and largest stake associated will become zone validators. Zone validators will be
-earning 50% of the exchange fee rewards from each proposed block on the zone where they
-operate (among a very small validator set). 
+Yes, all zone validators must also be hub validators, and have bonded stake in play, otherwise, 
+they wouldn't be slashable for any infractions they commit. To be precise, zone validators participate 
+in 'Bonded Proof of Authority' consensus. Becoming a zone validator is a privilege, and only the most 
+reputable hub validators, with the highest uptime and largest bonded stake, are likely to be elevated 
+to zone validator status. Zone validators earn half of the exchange fee rewards on the zones they 
+operate, and this revenue is likely to be shared amongst a very small validator set, so validators 
+will complete fiercely for the governance assigned right to validate on the most lucrative zones. 
+
 Exchange is like a supermarket you go there because everything is there even if you usually
 buy only a few products. Clients go to buy X but end up buying way more than they anticipated +
 always return because do not even have to think if X is there or not. Sometimes it's worth to
