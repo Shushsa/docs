@@ -4,20 +4,19 @@ title: Exchange
 sidebar_label: Exchange
 ---
 
-## Q1: Will you have a Trollbox?
+## Q1: Will you have a trollbox?
 
-We can implement our own, where messages will be stored on-chain or can integrate a decentralized chat of one of our partners such as Sentinel dChat.
+We intend to either build our own trollbox (in which case, messages would be stored on-chain) or integrate with a 
+decentralized service offered by one of our partners, e.g. Sentinel dChat.
 
-## Q2: Most centralized exchanges offer lower fees or other incentives for market makers, do you have any incentives to attract market makers?
+## Q2: Many centralized exchanges offer lower fees, or other incentives, to attract market makers. What incentives will Kira offer?
 
-There are four ways that we can incentive liquidity providers.
+There are four ways that Kira will incentivize liquidity providers.
 
-1. Liquidity pool embedded into the consensus engine.
-2. The use of the governance controlled community fund or on-chain contracting, and direct MM/LP incentivization.
-3. Instant finality of the consensus allowing MM/LP to immensely reduce risk thus have way
-smaller spreads and cost of operation than on CEX'es.
-4. Partnership agreements, through which we will be granting validators seats during the token
-mining event to MM's and LP's wishing to integrate with Kira.
+1. The liquidity pool embedded in our consensus engine directly rewards users for adding and staking assets.
+2. Via our governance controlled community fund, on-chain contracting or via direct MMs/LPs incentivization.
+3. The instant finality of our consensus mechanism enables MMs/LPs to reduce risk, narrow spreads and reduce operating costs.
+4. Via partnership agreements; we will issue a number of 'validators seats' during our 'token mining' event to MMs and LPs wishing to integrate with Kira.
 
 ## Q3: IDEX recently went full KYC, on LP you state that users will never be forced to do KYC for crypto to crypto pairs. How can you ensure that?
 
