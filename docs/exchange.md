@@ -18,12 +18,13 @@ There are four ways that Kira will incentivize liquidity providers.
 3. The instant finality of our consensus mechanism enables MMs/LPs to reduce risk, narrow spreads and reduce operating costs.
 4. Via partnership agreements; we will issue a number of 'validators seats' during our 'token mining' event to MMs and LPs wishing to integrate with Kira.
 
-## Q3: IDEX recently went full KYC, on LP you state that users will never be forced to do KYC for crypto to crypto pairs. How can you ensure that?
+## Q3: IDEX recently went 'full KYC'; in the lite paper you state that users will never be forced to perform KYC for crypto-to-crypto pairs. How can you ensure this?
 
-If you hold custody of user funds then you need to implement the KYC. This is the law in most jurisdictions. Kira does not operate an exchange and does not hold custody of user funds. If you want to exit fiat from Kira you can use the gateways of any of the 3rd party companies
-with appropriate licenses, such as Bity, E-money, Menapay, etc. These companies can KYC
-their customers. It all varies between jurisdictions, for example in case of Bity you can cash out
-up to $5000 per month without any KYC.
+In most jurisdictions, exchanges that custody user funds are required to KYC their users. 
+Kira does not custody funds, however, if you want to withdraw fiat from KiraEx you'll need 
+to use a 3rd party gateway that holds the appropriate licenses, such as Bity, E-money or Menapay. 
+These companies all KYC their customers, but the thresholds vary between jurisdictions; for 
+example, in case of Bity, users can withdraw up to $5000 USD per month without triggering KYC.
 
 ## Q4: How is Kira better than Binance DEX which is also using Tendermint consensus?
 
