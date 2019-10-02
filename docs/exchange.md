@@ -28,17 +28,21 @@ example, in case of Bity, users can withdraw up to $5000 USD per month without t
 
 ## Q4: How is Kira better than Binance DEX which is also using Tendermint consensus?
 
-Kira has a unique staking and security model, which induces both liquidity and security
-into the network. Furthermore, Kira Exchange is parallelizable which allows for higher
+Kira has a unique staking and security model that brings increasing levels of both liquidity and 
+security into the network. Furthermore, Kira Exchange is parallelizable which allows for higher
 throughput. Kira also possesses higher accessibility because it does not require any hosted
 backend or frontend that is operated by any centralized entity. Kira also does not hold custody
-over user funds where Binance DEX does, so the trading is not trustless there yet. Kira is a self-sustained and self-governed network without any authority controlling any aspect of it, including the development.
+over user funds where Binance DEX does, so the trading is not trustless there yet. Kira is a 
+self-sustained and self-governed network without any authority controlling any aspect of it, 
+including the development.
 
-## Q5: Most DEX’s suffer from slow order book updates, how will Kira solve this issue?
+## Q5: Most DEXs suffer from slow order book updates, how will Kira address this issue?
 
-We have a hybrid consensus, it means we use curated validator set where execution
-happens, which makes it extremely fast, while the settlement layer where users hold the
-majority of their coins have way larger validator set.
+Kira employs a hub-and-spoke architecture and takes a dual approach to consensus. On 
+individual zones (the spokes) we deploy small but heavily curated validator sets in order to deliver 
+extremely rapid settlement of trades, but on the Kira Hub (which acts as our settlement layer and is 
+where there majority of assets are stored) we employ a much larger validator set, and as such,
+transactions are necessarily slower.
 
 ## Q6: Most dex'es can only list tokens from platforms on which they are built, for example Etherdelta only has erc20 tokens, will Kira offer a larger variety of options?
 
