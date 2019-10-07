@@ -39,25 +39,26 @@ including the development.
 ## Q5: Most DEXs suffer from slow order book updates, how will Kira address this issue?
 
 Kira employs a hub-and-spoke architecture and takes a dual approach to consensus. On 
-individual zones (the spokes) we deploy small but heavily curated validator sets in order to deliver 
+individual zones (the spokes) we deploy small but highly curated validator sets in order to deliver 
 extremely rapid settlement of trades, but on the Kira Hub (which acts as our settlement layer and is 
 where there majority of assets are stored) we employ a much larger validator set, and as such,
 transactions are necessarily slower.
 
-## Q6: Most dex'es can only list tokens from platforms on which they are built, for example Etherdelta only has erc20 tokens, will Kira offer a larger variety of options?
+## Q6: Most DEXs are only able to list tokens based on their native platform, e.g. EtherDelta only offers ERC20 tokens. Will Kira improve on this?
 
-We are an Interchain Exchange and we connect to both Cosmos, Polkadot and can have
-our bridges to foreign public and private blockchains Which implies that we can support any
-token originating from any network in the whole crypto ecosystem as long as the tokens we
-connect to have deterministic or probabilistic finality within some reasonable timeframe.
+Kira is an Interchain Exchange; we'll connect to all major ecosystems such as Cosmos and 
+Polkadot, and in addition to this, we can offer bridges to any public or private blockchain 
+that offers either deterministic finality, or probabilistic finality within some reasonable 
+timeframe.
 
-## Q7: What will be the process for token listing? How will you filter through scams, listing fee, kyc for project and community votes.
+## Q7: What will be the process for token listing? How will you filter out scams?
 
-Any token can be traded without permissions, however, the governance will hold power to
-curate which tokens can trade within which exchange zones. There might be exchange zones
-on which highly liquid and trusted assets can trade and other zones on which unknown, not
-trusted token will trade. To list any token, you have to vest one of the whitelisted
-stake-able assets to prevent spam.
+On KiraEx, any token can be listed instantly and traded in a fully permissionless manner; however, governance 
+will ultimately determine which tokens are permitted to trade within which category of exchange zone. For 
+example, there will be 'high-trust' zones within which the most liquid and reputable assets are traded, 
+and other, more resource constrained zones, on which unknown and (as yet) untrusted token might operate. 
+In order to list a token, one must simply vest the appropriate quality of any whitelisted asset, as a 
+spam prevention mechanism.
 
 ## Q8: How will Kira implement liquidity pool?
 
