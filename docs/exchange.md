@@ -60,31 +60,29 @@ and other, more resource constrained zones, on which unknown and (as yet) untrus
 In order to list a token, one must simply vest the appropriate quality of any whitelisted asset, as a 
 spam prevention mechanism.
 
-## Q8: How will Kira implement liquidity pool?
+## Q8: How will Kira implement its onchain liquidity pool?
 
-The first iteration of the liquidity pool system will be enabling transfers of stake-able
-assets (tokens representing shares of the staked coins) in conjunction with the Multi Bonded
-Proof of Stake consensus. This creates a self-balancing system that increases the liquidity of the
-order books as well as increases the security of the network.
-For example, by staking Bitcoin on Kira you can earn passive income from the exchange fees
-when your BTC is locked. You can unlock your BTC by waiting 21 days for the unbound to occur
-but if you can't wait for any reason you can sell a share representing staked BTC (sBTC) for
-not-staked BTC to claim it immediately.
+The first iteration of our liquidity pool will enable transfers of stakeable assets (e.g. tokens 
+representing a corresponding claim on locked tokens) in conjunction with our Multi Bonded
+Proof of Stake consensus design. This creates a self-balancing system that increases 
+order book depth and bolsters the overall security of the network.
 
-People want to earn rewards but sometimes just can't wait to unbond staked assets. The
-opportunity to use the exchange and immediately liquidate staked positions increases along
-the growing amount of stake bonded. This creates a major opportunity for everyone who does not
-immediately requires access to their cryptocurrencies and injects external value to the network
-through the exchange fees.
+For example, by staking Bitcoin on KiraEx, users can earn passive income from exchange fees
+over the period that the assets are locked. Users can later unlock their Bitcoin by waiting a 21 day 
+unbonding period to elapse. However if a user would prefer not to wait, they also have the option 
+to sell (at a slight discount) the tokenized shares representing staked tokens (e.g. sBTC) 
+and claim the underlying asset immediately. On the other hand, this mechanism enables patient 
+speculators to buy discounted claims on locked assets, wait an unbonding period, and profit. 
 
-The value of shares of staked and non-staked coins is predictable because you can always
-claim your tokens back 1:1 for each share of the token you have as long as the validator from
-whom shares originate - is not slashed. Demand for the share liquidation induces growing
-opportunity for speculators who can buy cheap shares and can unbond them by simply
-awaiting the unbound time to claim the non-staked tokens.
+The volume traded on these secondary markets (e.g. sBTC vs. BTC) will tend to increase as total bonded 
+stake grows across the exchange. This creates opportunities for users who do not immediately require 
+access to their cryptoassets, and injects value into the network via exchange fees. The value of shares 
+representing staked tokens is mostly predictable because a user can always claim back their tokens 
+1:1, provided the validator from whom those shares originate has not been slashed. 
 
 As a final part, a dynamic inflation mechanism ensures demand for staking wile governance
-controlled slashing guarantees maximum security of stake bonded. This creates a self-sustaining liquidity pool of all whitelisted stake-able assets. Demand to liquidate shares of
+controlled slashing guarantees maximum security of stake bonded. This creates a self-sustaining
+liquidity pool of all whitelisted stake-able assets. Demand to liquidate shares of
 staked coins increases the use of exchange and growing revenues of the network from the fees.
 Growing revenues imply a growing amount of delegation and security of the network and finally
 increases the demand to liquidate shares of staked coins.
