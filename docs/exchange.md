@@ -69,23 +69,22 @@ order book depth and bolsters the overall security of the network.
 
 For example, by staking Bitcoin on KiraEx, users can earn passive income from exchange fees
 over the period that the assets are locked. Users can later unlock their Bitcoin by waiting a 21 day 
-unbonding period to elapse. However if a user would prefer not to wait, they also have the option 
-to sell (at a slight discount) the tokenized shares representing staked tokens (e.g. sBTC) 
+unbonding period to elapse. However, if a user would prefer not to wait, they also have the option 
+to sell (at a slight discount) the tokenized shares representing those staked tokens (e.g. sBTC) 
 and claim the underlying asset immediately. On the other hand, this mechanism enables patient 
 speculators to buy discounted claims on locked assets, wait an unbonding period, and profit. 
 
 The volume traded on these secondary markets (e.g. sBTC vs. BTC) will tend to increase as total bonded 
 stake grows across the exchange. This creates opportunities for users who do not immediately require 
 access to their cryptoassets, and injects value into the network via exchange fees. The value of shares 
-representing staked tokens is mostly predictable because a user can always claim back their tokens 
+representing staked tokens is quite predictable because a user can always claim back their tokens 
 1:1, provided the validator from whom those shares originate has not been slashed. 
 
-As a final part, a dynamic inflation mechanism ensures demand for staking wile governance
-controlled slashing guarantees maximum security of stake bonded. This creates a self-sustaining
-liquidity pool of all whitelisted stake-able assets. Demand to liquidate shares of
-staked coins increases the use of exchange and growing revenues of the network from the fees.
-Growing revenues imply a growing amount of delegation and security of the network and finally
-increases the demand to liquidate shares of staked coins.
+KiraEx features a dynamic inflation mechanism that incentivizes staking and a governance controlled slashing 
+mechanic that ensures a baseline level of security for all bonded assets. Demand to liquidate shares of staked tokens 
+increases the overall use of the exchange, and the resulting fees help to grow network revenues. Increased revenues 
+boosts delegation and bolsters the security of the network, again increasing demand for instant access to locked tokens, 
+thus further driving the feedback loop.
 
 ## Q9: How do you prevent fake asset listing?
 
