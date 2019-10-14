@@ -63,7 +63,7 @@ spam prevention mechanism.
 ## Q8: How will Kira implement its onchain liquidity pool?
 
 The first iteration of our liquidity pool will enable transfers of stakeable assets (e.g. tokens 
-representing a corresponding claim on locked tokens) in conjunction with our Multi Bonded
+representing corresponding claims on locked tokens) in conjunction with our Multi Bonded
 Proof of Stake consensus design. This creates a self-balancing system that increases 
 order book depth and bolsters the overall security of the network.
 
@@ -76,23 +76,23 @@ speculators to buy discounted claims on locked assets, wait an unbonding period,
 
 The volume traded on these secondary markets (e.g. sBTC vs. BTC) will tend to increase as total bonded 
 stake grows across the exchange. This creates opportunities for users who do not immediately require 
-access to their cryptoassets, and injects value into the network via exchange fees. The value of shares 
-representing staked tokens is quite predictable because a user can always claim back their tokens 
+access to their cryptoassets and injects value into the network via exchange fees. The value of shares 
+representing staked tokens is predictable because a user can always claim back their tokens 
 1:1, provided the validator from whom those shares originate has not been slashed. 
 
 KiraEx features a dynamic inflation mechanism that incentivizes staking and a governance controlled slashing 
-mechanic that ensures a baseline level of security for all bonded assets. Demand to liquidate shares of staked tokens 
+mechanic that ensures a baseline level of security for all bonded assets. Demand to release shares of staked tokens 
 increases the overall use of the exchange, and the resulting fees help to grow network revenues. Increased revenues 
 boosts delegation and bolsters the security of the network, again increasing demand for instant access to locked tokens, 
 thus further driving the feedback loop.
 
-## Q9: How do you prevent fake asset listing?
+## Q9: How does KiraEX combat fake or fraudulent asset listings?
 
-The governance set is curating which tokens can be traded on which execution zone.
-The non-trusted or non-approved assets can have their dedicated exchange zone where
-they can be traded in a permissionless manner. This way users can be aware that if the token is not
-available on the zone where trusted tokens can trade, it implies that the network did not
-recognize the token yet and users trade it on a designated zone at their own risk.
+Untrusted or non-approved assets can be listed in a permissionless fashion, however these 
+tokens will, by default, reside within low-trust exchange zones. Because approved and trusted 
+assets tend to trade on high-trust exchange zones, this offers users (and user interfaces) an easy 
+way to judge token quality, such that users can be warned to proceed at own risk. Our governance set 
+determines how, and when, tokens are moved between execution zones.
 
 ## Q10: How do you prevent spamming listing?
 
