@@ -91,14 +91,11 @@ thus further driving the feedback loop.
 Untrusted or non-approved assets can be listed in a permissionless fashion, however these 
 tokens will, by default, reside within low-trust exchange zones. Because approved and trusted 
 assets tend to trade on high-trust exchange zones, this offers users (and user interfaces) an easy 
-way to judge token quality, such that users can be warned to proceed at own risk. Our governance set 
+way to differentiate token quality, such that users can be warned to proceed at own risk. Our governance set 
 determines how, and when, tokens are moved between execution zones.
 
-## Q10: How do you prevent spamming listing?
+## Q10: How do you prevent spam listing?
 
-To list a new token on the exchange, there has to be a minimum amount of
-whitelisted tokens locked to enable trading of the new asset. The amount that has to be
-locked is defined by governance. Everyone will be able to lock more assets, meaning that
-not only the person that requests the listing is in control of whether or no trading of the token is
-possible. In the case where the minimum requirement of locked assets is not met or tokens are
-unlocked, a token no longer can be traded.
+In order to list a new token on KiraEx, it is necessary to lock-up a (governance defined) minimum 
+amount of whitelisted tokens. In the case where this minimum requirement is not met, or tokens are
+subsequently unlocked, a token no longer can be traded.
