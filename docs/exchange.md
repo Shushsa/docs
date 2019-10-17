@@ -26,15 +26,15 @@ required to use a 3rd party gateway that holds the appropriate licenses (such as
 These companies all KYC their customers, but the thresholds vary between jurisdictions; for 
 example, in case of Bity, users can withdraw up to $5000 USD, per month, without triggering KYC.
 
-## Q4: How is Kira better than Binance DEX which is also using Tendermint consensus?
+## Q4: How does Kira improve on the Binance DEX, which also employs Tendermint consensus?
 
-Kira has a unique staking and security model that brings increasing levels of both liquidity and 
-security into the network. Furthermore, Kira Exchange is parallelizable which allows for higher
-throughput. Kira also possesses higher accessibility because it does not require any hosted
-backend or frontend that is operated by any centralized entity. Kira also does not hold custody
-over user funds where Binance DEX does, so the trading is not trustless there yet. Kira is a 
-self-sustained and self-governed network without any authority controlling any aspect of it, 
-including the development.
+Kira has a unique staking and security model that brings increasing levels of liquidity and 
+security into the network. KiraEx operates a highly parallel architecture which 
+provides superior throughput, and because our platform does not rely on a centrally 
+hosted backend or frontend, Kira is also able to promise superior availability. Furthermore, 
+unlike Binance DEX, Kira does not custody user funds, and as such, trading on BinaceDex is 
+not completely trustless. Kira is a self-sustained and self-governed network with no dominant 
+authority controlling any aspect of it, including the technical development of the ecosystem itself.
 
 ## Q5: Most DEXs suffer from slow order book updates, how will Kira address this issue?
 
