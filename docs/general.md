@@ -4,19 +4,20 @@ title: General
 sidebar_label: General
 ---
 
-## Q1: Will I be able to place orders from my hardware wallet?
+## Q1: Will I be able to trade using my hardware wallet?
 
-Yes, you will be able to use Ledger Nano S/X.
+Yes, Kira will be compatible with a range of hardware wallets, beginning with the Ledger Nano S/X.
 
-## Q2: What makes you a hybrid exchange?
+## Q2: What makes Kira a 'hybrid' exchange?
 
-We are using a hybrid of two different consensuses. The Multi Bonded Proof of Stake and Multi Bonded Proof of Authority. The first one guarantees the security of the settlement layer and the second one guarantees speed
-of the exchange zones
+Our architecture employs a hybrid of two quite different consensuses mechanisms; Multi Bonded Proof of Stake and Multi Bonded Proof 
+of Authority. The former guarantees the security of the settlement layer and the latter provides extremely high transaction 
+throughput across our exchange zones
 
-## Q3: What makes you an interchain exchange?
+## Q3: What makes you an 'interchain' exchange?
 
-We will comply with both Inter Blockchain Communication (IBC) standard of Cosmos Network and Interchain Message Passing Protocol of Polkadot as well as other usable Internet
-of Blockchains standards in the future.
+We will comply with Cosmos' Inter-Blockchain Communication (IBC) standard and the Interchain Message 
+Passing Protocol specified by Polkadot, as well as other foundational standards that might emerge in the future.
 
 ## Q4: Will Kira have the native token, if yes, how will it be used?
 
