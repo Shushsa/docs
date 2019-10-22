@@ -17,15 +17,14 @@ throughput across our exchange zones
 ## Q3: What makes you an 'interchain' exchange?
 
 We will comply with Cosmos' Inter-Blockchain Communication (IBC) standard and the Interchain Message 
-Passing Protocol specified by Polkadot, as well as other foundational standards that might emerge in the future.
+Passing Protocol specified by Polkadot, as well as other core standards that might emerge in the future.
 
-## Q4: Will Kira have the native token, if yes, how will it be used?
+## Q4: Will Kira have the native token, if yes, what role does it play?
 
-Kira has a native stake-able asset called Kira Exchange Token (KEX) which is used to
-secure the network, and yields the revenues for the stakeholders in the form of block rewards,
-network and exchange fees as well as it’s used as incentivization tool for the onchain
-contracting in the community fund. KEX will also be used in the permissionless token issuance
-mechanism.
+Kira's native staking asset is called the Kira Exchange Token (KEX). KEX is used to
+secure the network, and delegating KEX yields block rewards, network fees and exchange fees 
+for stakeholders. KEX also powers the on-chain contracting mechanism via the community fund and 
+is used in the permissionless token issuance process.
 
 ## Q5: How KEX token will be created, if there is no pre-mine?
 
