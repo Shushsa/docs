@@ -22,22 +22,21 @@ Passing Protocol specified by Polkadot, as well as other core standards that mig
 ## Q4: Will Kira have the native token, if yes, what role does it play?
 
 Kira's native staking asset is called the Kira Exchange Token (KEX). KEX is used to
-secure the network, and delegating KEX yields block rewards, network fees and exchange fees 
+secure the network and delegating KEX yields block rewards, network fees and exchange fees 
 for stakeholders. KEX also powers the on-chain contracting mechanism via the community fund and 
 is used in the permissionless token issuance process.
 
-## Q5: How KEX token will be created, if there is no pre-mine?
+## Q5: If there is no pre-mine, how are KEX tokens created?
 
-All KEX tokens will be created through the direct or indirect process of mining. The direct
-process involves operating a validator node, during the testnet and incubation phase of the Kira
-Network launch. The indirect method of mining will be disclosed at a later date and will be fully
-permissionless. During the mining phase, KEX tokens will be created through the dynamic
+All KEX tokens are created either directly, or indirectly, through mining. The direct
+mining process involves operating a validator node during the testnet and incubation phase of the Kira
+network launch. The indirect method of mining will be disclosed at a later date and also will be fully
+permissionless. During the mining phase, KEX tokens will be created through a dynamic
 inflation process, which is required to ensure the security of the network.
 
 ## Q6: Will the Kira team receive or reserve any tokens for themselves?
 
-Yes, Kira team will reserve 20% of the tokens to ensure rapid, continuous development
-effort.
+Yes, Kira team will reserve 20% of the KEX tokens.
 
 ## Q7: Why bonding is needed?
 
