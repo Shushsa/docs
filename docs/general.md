@@ -38,12 +38,12 @@ inflation process, which is required to ensure the security of the network.
 
 Yes, Kira team will reserve 20% of the KEX tokens.
 
-## Q7: Why bonding is needed?
+## Q7: Why is bonding needed?
 
-Bonding is needed to ensure “value” is at stake of the Proof of Stake consensus. When
-assets are “at stake” it means that if the validator to whom the stake is bonded misbehaves,
-those bonded assets can be destroyed. This ensures that delegators (those who bond stake)
-wisely choose validators to who commit their assets.
+Bonding is required to ensure 'skin in the game' for our Proof of Stake consensus. When
+assets are 'at stake' it means that, if a validator to whom the stake is bonded misbehaves,
+some of those bonded assets can be slashed (e.g. destroyed). This incentivises delegators (the 
+users who bond stake) to consider carefully which validators they commit their tokens to.
 
 ## Q8: Why do you need to bond multiple tokens and why they have to be whitelisted?
 
