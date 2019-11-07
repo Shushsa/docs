@@ -47,16 +47,18 @@ users who bond stake) to consider carefully which validators they commit their t
 
 ## Q8: Why do you need to bond multiple tokens and why they have to be whitelisted?
 
-In the context of the Multi-Bonded Proof of Stake consensus, multiple tokens are used to
-ensure security and long term decentralization of the network. Every token always centralizes
-overtime, for these reasons instead of using a single token, Kira uses many tokens that are
-constantly changing to ensure that stake in the network is never centralized to the point which
-could decrease the security of the network.
+In the context of Kira's Multi-Bonded Proof of Stake consensus, multiple staking tokens are employed
+to promote the long term security and decentralization of the network. All PoS tokens have a 
+tenancy to accumulate into the hands of fewer and fewer network participants which, over time, 
+has the potential to result in cartel-like behavior. For this reason, Kira employs a diverse set of 
+stakeable assets, which are continually rotated in and out of our whitelisted asset pool, thus keeping 
+the risk of centralization in check. 
 
-Tokens used for staking have to be whitelisted because the value of the stake has to be pegged
-to the value of the native stake-able token KEX, as well as defining the maximum revenue share
-that not native staked assets can access. Otherwise, a malicious actor could print and inject an
-infinite amount of token within Kira to claim most of the revenue from staking.
+Tokens allowed into our staking pool must always be whitelisted, because the value of the resulting 
+assets must be priced using our native staking token (KEX) and the maximum share of rewards share that each 
+'non-native' staking asset can earn must be carefully defined. Otherwise, a malicious actor could 
+print and inject large numbers of worthless tokens in order to claim an outsized share of 
+staking revenues.
 
 ## Q9: How does parallelization occur?
 
