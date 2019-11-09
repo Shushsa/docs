@@ -60,9 +60,12 @@ assets must be priced using our native staking token (KEX) and the maximum share
 print and inject large numbers of worthless tokens in order to claim an outsized share of 
 staking revenues.
 
-## Q9: How does parallelization occur?
+## Q9: How does Kira scale transaction throughput?
 
-Parallelization is achieved when trading occurs in many different zones at the same time. You can pick any zone you want for trading and different currency pairs can be traded on different zones allowing for user experience comparable to one on a centralized exchange, but where user still maintains custody over the funds.
+ Kira employs a hub-spoke architecture such that each order book can potentially be served by a 
+ dedicated Tendermint blockchain. Furthermore, each of these shards employs a very small, but highly 
+ trusted, validator set that is elected by governance; it is this approach, called Multi-Bonded Proof of 
+ Authority (MBPoA) that enables Kira to deliver transaction speed competitive with centralized exchanges.
 
 ## Q10: How will you as a team make money?
 
