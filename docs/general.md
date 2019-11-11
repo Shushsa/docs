@@ -67,12 +67,12 @@ staking revenues.
  trusted, validator set that is elected by governance; it is this approach, called Multi-Bonded Proof of 
  Authority (MBPoA) that enables Kira to deliver transaction speed competitive with centralized exchanges.
 
-## Q10: How will you as a team make money?
+## Q10: How will you, as a team, make money?
 
-Kira Team can be incentivized through the governance controlled on-chain contracting.
-The network will have full custody over the community fund and be able to support Kira
-Team to continue development efforts. Additionally Kira team will operate a validator node and
-self-bond Kira Tokens to earn block rewards.
+The Kira Team is primary incentivized by a process called on-chain contracting, which is controlled via 
+governance. The network will have full custody over a community fund that will finance the Kira
+Team throughout its continued development efforts. Additionally, the team will operate a validator 
+node, and self-bond Kira Tokens, in order to earn block rewards.
 
 ## Q11: How will the exchange users make money?
 
