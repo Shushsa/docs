@@ -74,12 +74,12 @@ governance. The network will have full custody over a community fund that will f
 Team throughout its continued development efforts. Additionally, the team will operate a validator 
 node, and self-bond Kira Tokens, in order to earn block rewards.
 
-## Q11: How will the exchange users make money?
+## Q11: How will exchange users make money?
 
-Users, who are not validators and do not own the Kira Exchange Token (KEX) can bond
-all other stake-able assets and earn revenue from the block rewards, network fees, and
-exchange fees. Staked assets will be transferable in the form of delegation shares, which implies
-that users can generate passive income while trading or simply holding their assets.
+Users who are not validators and do not own the Kira Exchange Token (KEX) can bond
+any other stakeable asset and earn a corresponding share of block rewards, network fees, and
+exchange fees. Because staked assets are transferable in the form of delegation shares,
+users can generate passive income whilst trading, or simply holding, their assets.
 
 ## Q12: Will there be a market need for such exchange so early in the Cosmos ecosystem ?
 
