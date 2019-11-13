@@ -81,14 +81,13 @@ any other stakeable asset and earn a corresponding share of block rewards, netwo
 exchange fees. Because staked assets are transferable in the form of delegation shares,
 users can generate passive income whilst trading, or simply holding, their assets.
 
-## Q12: Will there be a market need for such exchange so early in the Cosmos ecosystem ?
+## Q12: Will there be a need for an exchange such as Kira so early in the evolution of the Cosmos ecosystem?
 
-Cosmos is a tool used to launch Kira in a fast and painless manner, with the assumption that
-crypto is moving toward the Internet of Blockchain. This implies not only trustless bridges to largest
-chains like BTC and ETH but also all new projects will be launching using various SDK's and
-creating reusable modules instead of forking some legacy coin code and continuously rewriting
-and the bug-fixing entire thing. In case of Cosmos BTC and ETH bridges are almost complete and
-will be out EOY 2019 along IBC.
+We believe in a multi-chain future, evolving toward a rich and diverse universe of interconnected blockchains. 
+This vision implies not only the emergence of trustless bridges to the largest ecosystems (such as BTC and ETH) but 
+also the emergence of thousands of new projects, developed using a range of SDKs, and built using reusable modules rather than 
+by adapting legacy and monolithic codebases. In case of Cosmos, BTC and ETH bridges are almost complete and 
+will be released toward the end of 2019, along with IBC.
 
 Previous paradigms occurred first on various forks of PoW, then on the smart contact level. The
 new trend is Proof of Stake consensus and Internet of Blockchains, and this makes total sense
