@@ -83,18 +83,22 @@ users can generate passive income whilst trading, or simply holding, their asset
 
 ## Q12: Will there be a need for an exchange such as Kira so early in the evolution of the Cosmos ecosystem?
 
-We believe in a multi-chain future, evolving toward a rich and diverse universe of interconnected blockchains. 
-This vision implies not only the emergence of trustless bridges to the largest ecosystems (such as BTC and ETH) but 
+We believe in a multi-chain future consisting of rich and diverse universe of interconnected blockchains. 
+This vision implies not only the emergence of trustless bridges to the largest ecosystems (such as Bitcoin and Ethereum) but 
 also the emergence of thousands of new projects, developed using a range of SDKs, and built using reusable modules rather than 
-by adapting legacy and monolithic codebases. In case of Cosmos, BTC and ETH bridges are almost complete and 
-will be released toward the end of 2019, along with IBC.
+by adapting legacy and monolithic codebases. In case of Cosmos, Bitcoin and Ethereum bridges are almost complete and 
+will be released toward the end of 2019, along with the IBC protocol.
 
-Previous paradigms occurred first on various forks of PoW, then on the smart contact level. The
-new trend is Proof of Stake consensus and Internet of Blockchains, and this makes total sense
-from the perspective of developers who want to rapidly deliver blockchain apps that actually
-work and scale in real life scenarios. Which implies that in not so distant future, majority of
-tokens will be available or created within the IoB. Kira will allow for all those assets to trade in a
-fully trustless and permissionless manner.
+Looking back at the development of the blockchain ecosystem, the first round of innovation came about via multiple
+forks Bitcoin's Proof of Work consensus (e.g. Litecoin) and then later, at the smart contact level, with the 
+launch and adoption of Ethereum. 
+
+However, as the vision for the Internet of Blockchains gains traction, developers preference is now shifting 
+toward Proof of Stake consensus and corresponding SDKs from Cosmos and Polkadot. This modular approach makes sense
+from the perspective of engineers who want to rapidly deliver blockchain application that can scale 
+to address real world problems. All of this implies that, in not too distant future, the majority of
+tokens will be available or created within the this interconnected ecosystem of PoS blockchains. 
+Kira will allow all those assets to trade in a fully trustless and permissionless manner.
 
 It’s extremely important that PoS tokens have a trustless and permissionless access to the
 market, due to how the PoS consensus is secured - through the assumption that stake-able
