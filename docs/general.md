@@ -100,11 +100,12 @@ to address real world problems. All of this implies that, in not too distant fut
 tokens will be available or created within the this interconnected ecosystem of PoS blockchains. 
 Kira will allow all those assets to trade in a fully trustless and permissionless manner.
 
-It’s extremely important that PoS tokens have a trustless and permissionless access to the
-market, due to how the PoS consensus is secured - through the assumption that stake-able
-assets have value. If this value could NOT be possible to realize because centralized exchange
-began to delist PoS tokens, the PoS security of all those delisted tokens would be immensely
-decreased. For this reason, Kira is an essential part of sustaining the Proof of Stake paradigm.
+Due to the way in which Proof of Stake consensus is secured, it's critical that PoS projects have 
+access to at least one exchange so that a fair market value for the project's native token can be 
+established. Because centralized (and decentralised) exchanges are able to arbitrarily delist tokens, 
+the security of any PoS project can quickly be called into question. Because we offer an entirely 
+permissionless listing process and provide censorship resistant access to the market, Kira aims 
+to play an important role in securing the emerging Proof of Stake ecosystem.
 
 ## Q13: So if a transaction is happening on Cosmos Zone for an asset originating from Kira, how will this process work?
 
