@@ -107,11 +107,12 @@ the security of any PoS project can quickly be called into question. Because we 
 permissionless listing process and provide censorship resistant access to the market, Kira aims 
 to play an important role in securing the emerging Proof of Stake ecosystem.
 
-## Q13: So if a transaction is happening on Cosmos Zone for an asset originating from Kira, how will this process work?
+## Q13: If a transaction occurs on a Cosmos Zone involving an asset originating from Kira (or vice versa) how does this work?
 
-Before any asset can be traded on the Kira Exchange it has to be sent through the IBC
-protocol into the Kira Hub, from where it can be sent into the exchange zone where trades will
-occur. From the user perspective, this process is fully abstracted.
+Before any asset can be traded on the Kira Exchange, it must first be sent via the IBC
+protocol to the Kira Hub, and from there, it can be moved onto the specific exchange zone where 
+trading will take place. From the user's perspective, this process occurs seamlessly and is entirely 
+abstracted away.
 
 ## Q14: When it comes to development of product there's a reason why people want to see competent teams having lots of funds for development purposes, with community fund in place you make sure that it is always possible to bring other developers into play through vote but when it comes to implementing big features that requires lots of time, and not everyone will be able to understand the benefit of them. What makes you think you will be able to persuade people to vote for that feature to get funding over stuff like fancy explorers and other minor improvements that only bring “aesthetics to the platform”, because more often than not people are focused on short term benefits?
 
