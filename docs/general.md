@@ -114,7 +114,11 @@ protocol to the Kira Hub, and from there, it can be moved onto the specific exch
 trading will take place. From the user's perspective, this process occurs seamlessly and is entirely 
 abstracted away.
 
-## Q14: When it comes to development of product there's a reason why people want to see competent teams having lots of funds for development purposes, with community fund in place you make sure that it is always possible to bring other developers into play through vote but when it comes to implementing big features that requires lots of time, and not everyone will be able to understand the benefit of them. What makes you think you will be able to persuade people to vote for that feature to get funding over stuff like fancy explorers and other minor improvements that only bring “aesthetics to the platform”, because more often than not people are focused on short term benefits?
+## Q14: Via the community fund, users can vote to incentivise 3rd party developers to contribue tooling to the Kira ecosystem, 
+but what about the core functionality of the platform itself? This sort of engineering tends to require significant time commitments 
+and a cohesive vision for the future of the product - not everyone will understand the benefits of any given feature. 
+How will you persuade users to vote in favor of complex technical proposals rather than short-term projects 
+(e.g. block explorers) that, whilst easy to understant, tend only to bring aesthetic benefits to the ecosystem?
 
 Kira’s development team will also be employed under this onchain contract and initially
 will be responsible for the majority of those bigger features. While the smaller ones will be
@@ -124,7 +128,8 @@ have to consider, that before the network fully transforms into enlightened demo
 people are “chain conscious” and aware of issues like these, the network will be a technocracy,
 which implies that people with short term visions will unlikely enter a governance set
 
-## Q15: So all validators no matter how many tokens are staked will have equal voting power but rewards from exchange fees and block rewards gonna be proportional to staked tokens, correct?
+## Q15: So all validators no matter how many tokens are staked will have equal voting power but 
+rewards from exchange fees and block rewards gonna be proportional to staked tokens, correct?
 
 Yes, except for the fees. The 50% of the fees goes to the validator that proposes the
 block and the rest goes to delegators but the funds that go to the delegators are distributed
