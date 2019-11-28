@@ -114,15 +114,15 @@ protocol to the Kira Hub, and from there, it can be moved onto the specific exch
 trading will take place. From the user's perspective, this process occurs seamlessly and is entirely 
 abstracted away.
 
-## Q14: Via the community fund, users can vote to incentivise 3rd party developers to contribue tooling to the Kira ecosystem, but what about the core functionality of the platform itself? This sort of engineering tends to require significant time commitments and a cohesive vision for the future of the product - not everyone will understand the benefits of any given feature. How will you persuade users to vote in favor of complex technical proposals rather than short-term projects (e.g. block explorers) that, whilst easy to understant, tend only to bring aesthetic benefits to the ecosystem?
+## Q14: Via the community fund, users can vote to incentivise developers to contribue tooling to the Kira ecosystem, but what about the core functionality of the platform itself? This sort of engineering tends to require significant time commitment and a cohesive vision for the future of the project. Given that not everyone will understand the benefits of any given feature, how will you persuade users to vote in favor of complex technical proposals rather than quick wins (e.g block explorers)?
 
-Kira’s development team will also be employed under this onchain contract and initially
-will be responsible for the majority of those bigger features. While the smaller ones will be
-outsourced through the community fund as well. In addition, there’s going to be a code of
-conduct under which all governance bodies vote and decide how funds are distributed. You
-have to consider, that before the network fully transforms into enlightened democracy, where
-people are “chain conscious” and aware of issues like these, the network will be a technocracy,
-which implies that people with short term visions will unlikely enter a governance set
+All on-chain contracting, for features both large and small, will indeed be conducted via
+the community fund. However, there will be a code of conduct under which all 'governance bodies'
+within the Kira ecosystem will vote in order to decide how these funds are allocated. 
+Consider that, before the network reaches its 'enlightened democracy' phase (where
+all participants are 'chain conscious' and aware of the broader issues) the network 
+will effectively be a technocracy, implying that individuals lacking long term vision will 
+be unlikely to enter the governance set.
 
 ## Q15: So all validators no matter how many tokens are staked will have equal voting power but rewards from exchange fees and block rewards gonna be proportional to staked tokens, correct?
 
