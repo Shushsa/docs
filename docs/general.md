@@ -124,14 +124,13 @@ all participants are 'chain conscious' and aware of the broader issues) the netw
 will effectively be a technocracy, implying that individuals lacking long term vision will 
 be unlikely to enter the governance set.
 
-## Q15: So all validators no matter how many tokens are staked will have equal voting power but rewards from exchange fees and block rewards gonna be proportional to staked tokens, correct?
+## Q15: So all validators (no matter how many tokens they're staking) will have equal voting power, but rewards from exchange fees and block rewards will be proportional to the quantity of tokens staked. Is this correct?
 
-Yes, except for the fees. The 50% of the fees goes to the validator that proposes the
-block and the rest goes to delegators but the funds that go to the delegators are distributed
-differently than block rewards. They are not proportional to your stake in regards to all coins
-staked. Your fee rewards are proportional to your stake bonded to the particular validator which
-is the similar way how it’s done in polkadot, it’s just a mix of both polkadot distribution (of fee
-rewards) and cosmos distribution (of block rewards).
+Yes, except for fees. 50% of fees go to the validator that proposes a block (the rest go to delegators) 
+but rewards received by delegators are distributed differently to block rewards. Fee rewards are proportional 
+to stake bonded to a particular validator, which is the similar to Polkadot. Essentially, Kira uses
+Polkadot's approach to distributing fee rewards but applies the same approach to block reward distribution 
+as Cosmos.
 
 ## Q16: Why do validators only get 50% of the exchange fees when they provide most of the leg work?
 
