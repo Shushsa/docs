@@ -132,12 +132,13 @@ to stake bonded to a particular validator, which is the similar to Polkadot. Ess
 Polkadot's approach to distributing fee rewards but applies the same approach to block reward distribution 
 as Cosmos.
 
-## Q16: Why do validators only get 50% of the exchange fees when they provide most of the leg work?
+## Q16: Why do validators recieve only 50% of fees rewards when they do the majority of the leg work?
 
-Kira believes that both delegators and validators have equally important roles. The
-delegators provide security and have to be incentivized, while validators operate the network for
-everyone to use. These roles are distinct, and are equally valuable. That's why we set that initial
-cosmological constant to be 50%.
+We believe that both delegators and validators have equally important roles. Delegators provide our underlying 
+network security and must be properly incentivized but, on the other hand, validators operate the platform for
+everyone to use. These roles are distinct but equally valuable, which is why we set initial
+'cosmological constant' for the reward split to be 50%.
+
 Governance set will always be able to decide upon any parameter, however, that’s why we have
 a code of conduct to ensure that things like that are not abused. It’s similar in case of cosmos
 network. If governance decides to change any variable, they could easily do it. It’s a default
