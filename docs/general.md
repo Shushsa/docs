@@ -132,20 +132,22 @@ to stake bonded to a particular validator, which is the similar to Polkadot. Ess
 Polkadot's approach to distributing fee rewards but applies the same approach to block reward distribution 
 as Cosmos.
 
-## Q16: Why do validators recieve only 50% of fees rewards when they do the majority of the leg work?
+## Q16: Why do validators recieve only 50% of the fees rewards when they do the majority of the leg work?
 
-We believe that both delegators and validators have equally important roles. Delegators provide our underlying 
-network security and must be properly incentivized but, on the other hand, validators operate the platform for
+We believe that both delegators and validators have equally important roles. Delegators provide Kira's underlying 
+network security and must be properly incentivized, but on the other hand, validators operate the platform for
 everyone to use. These roles are distinct but equally valuable, which is why we set initial
 'cosmological constant' for the reward split to be 50%.
 
-Governance set will always be able to decide upon any parameter, however, that’s why we have
-a code of conduct to ensure that things like that are not abused. It’s similar in case of cosmos
-network. If governance decides to change any variable, they could easily do it. It’s a default
-setting, however, the assumption is that this ratio would rather decrease than grow. There has to be
-a reasonable value under which the network starts operating. Such as supply of tokens, inflation,
-and hundreds of other parameters you set in the beginning. Although no one can guess how
-the market is going to react, it will definitely show us its expectations.
+The Kira governance set will always be free to modify any network parameter, and our
+code of conduct helps to ensure that this process is not abused. The Cosmos Network 
+operates in a is similar fashion; if governance decides to alter a network variable, the 
+change can be actioned via the submission of a proposal and a subsequent vote. 
+
+There is an assumption that this 50% ratio will be more likely to decrease than increase, but there must be sensible 
+initial values in place when the network becomes operational (such as supply of tokens, inflation rate,
+and many other parameters). Although no one can guess how the market will react, it 
+will certainly show us its expectations.
 
 ## Q17: Will voting power be proportional to balance? Meaning, 1 wallet with 1 KEX will have exact same voting power as 1 wallet with 1 million KEX?
 
