@@ -149,16 +149,16 @@ initial values in place when the network becomes operational (such as supply of 
 and many other parameters). Although no one can guess how the market will react, it 
 will certainly show us its expectations.
 
-## Q17: Will voting power be proportional to balance? Meaning, 1 wallet with 1 KEX will have exact same voting power as 1 wallet with 1 million KEX?
+## Q17: So voting power will not be proportional to balance? E.g. 1 wallet with 1 KEX will have the same voting power as 1 wallet with 1 million KEX?
 
-There are two cases where voting power applies, that is the governance and chances to
-propose new blocks by each validator. In both cases, Kira, validators and council members have
-an equal voting power, regardless of the stake bonded. Kira is a technocracy, aiming to evolve
-into the enlightened democracy governance system. 
-This means that voting power is in the hands of people who have knowledge and skills, useful for the project - rather than those who
-only have wealth. Enlightened democracy is the case where the majority of actors become network
-conscious to the similar level as initial governance set but that’s a long term process of
-educating the user base.
+There are two situations where voting power applies; the first is governance voting, and the second informs the probability that 
+a validator will have the right to propose a new block. In both cases, Kira validators and council members will have
+equal voting power, regardless of stake bonded. 
+
+Kira will begin as a technocracy but aims to evolve into an 'enlightened democracy' system of governance. This means that 
+voting power should ultimately rest in the hands of those who have knowledge and skills that are useful for the project, rather than simply those who
+have the wealth. Enlightened democracy is a state of affairs where the majority of network actors are both educated and 
+motivated in a way that is similar to the initial governance set. This is likely to be a long term process.
 
 ## Q18: So what prevents me from creating thousands of wallets with minimum balance with only one purpose to reject every proposal when its only address that counts as vote Users (stacke-able asset holders) are not automatically part of the governance set?
 
