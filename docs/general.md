@@ -157,12 +157,12 @@ equal voting power, regardless of stake bonded.
 
 Kira will begin as a technocracy but aims to evolve into an 'enlightened democracy' system of governance. This means that 
 voting power should ultimately rest in the hands of those who have knowledge and skills that are useful for the project, rather than simply those who
-have the wealth. Enlightened democracy is a state of affairs where the majority of network actors are both educated and 
+have the most wealth. Enlightened democracy is a state of affairs where the majority of network actors are both educated and 
 motivated in a way that is similar to the initial governance set. This is likely to be a long term process.
 
-## Q18: So what prevents me from creating thousands of wallets with minimum balance with only one purpose to reject every proposal when its only address that counts as vote Users (stacke-able asset holders) are not automatically part of the governance set?
+## Q18: What prevents me from creating thousands of wallets, each with a minimum balance, and using them to reject every proposal?
 
-They have to be elected in accordance with the Code of Conduct, which they also have to follow once they are elected.
+All members of the governance set must be elected in accordance with our Code of Conduct, and must adhere to these rules once elected. 
 
 ## Q19: So the proposals can be made by anyone that have enough whitelisted fee assets to pay the transaction fee. The governance is what approves the submission, and votes can only be made by validators, which have equal voting power among them?
 
