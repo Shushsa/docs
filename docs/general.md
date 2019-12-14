@@ -164,6 +164,6 @@ motivated in a way that is similar to the initial governance set. This is likely
 
 All members of the governance set must be elected in accordance with our Code of Conduct, and must adhere to these rules once elected. 
 
-## Q19: So the proposals can be made by anyone that have enough whitelisted fee assets to pay the transaction fee. The governance is what approves the submission, and votes can only be made by validators, which have equal voting power among them?
+## Q19: So proposals can be made by anyone with enough whitelisted assets to pay the transaction fees, and when submitted, the governance process either approves or denies based on votes by validators, all of whome have equal voting power?
 
-Yes, anyone can propose but the governance set is not just validators, it also consists of the council members, who are not validators but can vote on proposals.
+Anyone can generate a proposal, but in addition to validators, the governance set also consists 'council members' who are not validators but can also vote.
