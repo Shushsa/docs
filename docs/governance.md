@@ -6,14 +6,15 @@ sidebar_label: Governance
 
 ## Q1: What is Kira’s governance structure?
 
-Governance set of Kira consists of the following two kinds of actors:
+The governance set of Kira consists of the following two kinds of actors:
 
-1. Validators - must be active operators and not jailed. They have equal voting power to all
-   other governance set members. Can vote VETO on governance proposals. (1/2 of all
-   validators required). Validators will account for >= 1/3rd of all governance seats.
-2. Council Members - do not operate a validator node. They have equal voting power to all
-   other governance set members but can NOT vote VETO on governance proposals.
-   Counselors account for < 2/3'rds of all governance seats.
+1. Validators - these have equal voting power to all other members of the governance set and they 
+   can vote VETO on governance proposals. Validators account for >= 1/3rd of all governance seats. 
+   To vote, they must also be active operators and not 'jailed', that is, currently being penalized 
+   for an infraction. 
+
+2. Council Members - these actors do not operate validator nodes. They have equal voting power to all other governance 
+   members but can NOT vote VETO on governance proposals. Counselors account for < 2/3'rds of all governance seats.
 
 ## Q2: Why should I become a Kira partner?
 
