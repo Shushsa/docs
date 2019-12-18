@@ -18,15 +18,16 @@ The governance set of Kira consists of the following two kinds of actors:
 
 ## Q2: Why should I become a Kira partner?
 
-Becoming a Kira Partner allows you to participate as a validator in the token mining
-event during the launch of the network and earn revenue from block, network and exchange fee
-rewards as well as mining KEX token. In addition to becoming a validator, partners will also be
-automatically granted a governance seat position. Additionally partners benefit from individual
-agreements with the Kira Team, such as customization of the token issuance module, LTS of the
-open-source development stack being delivered by the Kira Team, whitelisting tokens of our
-partners as stake-able assets in the context of Kira’s Multi Bonded Proof of Stake consensus,
-thus allowing them to earn a portion of the revenue from the exchange. However, partners
-cannot mine or acquire any more tokens than any other validator.
+Becoming a partner enables you to participate (as a validator) in the 'token mining'
+event that will occur at the launch of the Kira network. You'll also be able to earn revenue from block, 
+network and exchange fee rewards, as well as mining the KEX token itself. In addition to becoming a validator, 
+partners will also be granted a governance seat. 
+
+Additionally, partners benefit from tailored agreements with the Kira Team, such as 
+customization of the token issuance module, long term support (LTS) for our open-source 
+development stack and whitelisting of tokens for Multi Bonded Proof of Stake consensus. The 
+latter enables partners to earn a share of exchange revenues, however, partners cannot mine, or acquire, 
+any more tokens than any other validator.
 
 ## Q3: So council members are not required to be validators? What are the requirements to be one?
 
