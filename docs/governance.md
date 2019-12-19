@@ -52,14 +52,14 @@ Zones can have a margin of independence, but even in these cases, the overall bo
 via the hub. The exchange application must to be as lightweight as possible, which will become 
 especially important as we implement privacy features in the future. 
 
-## Q5: What is Technocracy?
+## Q5: What is 'Technocracy'?
 
-In the context of Kira, technocracy is a governance system where voting power is not
-proportional to your wealth but distributed equally among most technically skilled and trusted
-actors in the network who provide their input and help Kira constantly progress and expand.
-Stake can still be bonded to those validators in exchange for the proportional amount of rewards for
-the delegators but voting power are equal among entire governance set which prevents the
-vulnerabilities due to stake centralization.
+In the context of Kira, technocracy describes a system of governance where voting power is not
+proportional to wealth, but instead, is distributed equally amongst most technically skilled and trusted
+actors in the network. These individuals can be counted upon to provide guidance and to help the Kira 
+project evolve and expand. Stake can still be bonded to those validators (by delegators) in exchange for 
+a proportional share of rewards, but the voting power of all members of the governance set remains 
+uniform. This also serves to mitigate vulnerabilities that can arise due to centralization of stake.
 
 ## Q6: What is enlightened democracy?
 
