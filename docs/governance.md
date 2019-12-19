@@ -61,14 +61,13 @@ project evolve and expand. Stake can still be bonded to those validators (by del
 a proportional share of rewards, but the voting power of all members of the governance set remains 
 uniform. This also serves to mitigate vulnerabilities that can arise due to centralization of stake.
 
-## Q6: What is enlightened democracy?
+## Q6: What is 'Enlightened Democracy'?
 
-The enlightened democracy is the next stage of evolution in the technocracy governance
-system. During the technocracy era, only validators can vote on governance proposals to evolve, manage and improving the network. This initial set of validators is
-technically inclined set of actors operating and governing the network in accordance with the Code
-of Conduct. These actors will begin to elect new governance set members called “Counselors”
-who are chain conscious, and provide valuable technical and nontechnical input in regards to
-the network operations. Counselors are not validators and cannot propose new blocks. Once
-the number of counselors is greater than the number of validators in the governance set, the
-network is transformed from the technocratic to the enlightened democracy system, where non
-purely technical but chain conscious actors have full governance power over the network.
+Enlightened democracy is the next stage of evolution after the 'Technocracy' system of governance.
+During the technocracy era, only validators are able to vote on governance proposals. Our initial 
+validator set will be a technically sophisticated group of actors who will operate in accordance 
+with our Code of Conduct. As we move toward the enlightened democracy era, validators will begin to elect 
+new governance members called 'Counselors'. These individuals are 'chain conscious' and will provide 
+valuable technical (and nontechnical) input into network operations, however, they are not validators 
+and will not propose new blocks. Once the number of counselors is greater than the number of validators, the
+network is considered to have transitioned from technocracy to enlightened democracy.
