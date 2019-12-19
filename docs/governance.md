@@ -40,16 +40,17 @@ utility to the network, possessing certain technical skills that will benefit th
 and many further requirements that will be decided upon in the spirit of creating a technocratic 
 system of governance.
 
-## Q4: Where does the governance for Kira’s IBC logic happens?
+## Q4: Where does the governance for Kira’s IBC logic happen?
 
-Governance always happens on the most secure layer. It's a master-slave approach to
-governance, regardless of what is decided on the hub zones have to comply with it, unless they
-are just private chains or foreign bridges with independent security model.
-Zones could have a margin of independence but even in such cases, they would be managed
-through the hub. Exchange application has to be as lightweight as possible, especially in the
-context of later implementing privacy features. The beauty of the Internet Blockchain Communication
-is that important governance decisions can be taken on the more secure layers and applied to
-less secure ones.
+Governance always operates on the most secure layer. We employ a master-slave approach to
+governance, so all zones must comply with whatever is decided on the hub, unless they
+are private chains or foreign bridges with an independent security model. The beauty of IBC 
+is that important governance decisions can be taken on the most secure layers and applied to 
+the less secure ones.
+
+Zones can have a margin of independence, but even in these cases, the overall bounds would be managed
+via the hub. The exchange application must to be as lightweight as possible, which will become 
+especially important as we implement privacy features in the future. 
 
 ## Q5: What is Technocracy?
 
