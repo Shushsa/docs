@@ -29,16 +29,16 @@ development stack and whitelisting of tokens for Multi Bonded Proof of Stake con
 latter enables partners to earn a share of exchange revenues, however, partners cannot mine, or acquire, 
 any more tokens than any other validator.
 
-## Q3: So council members are not required to be validators? What are the requirements to be one?
+## Q3: So, council members are not required to be validators? What are the requirements?
 
-Council members are not validators. Initially, governance set will consist of only
-validators, eventually they will start electing additional members to the governance set, who are
-not validators but can vote on the governance proposals. Those actors are called counselors. In
-order to become a counselor you have to meet the requirements in the Code of Conduct, and
-follow it after your election. Code of Conduct will be created and curated by the initial
-governance set, and will detail requirements such as providing utility to the network, possessing
-certain technical skills that will benefit the Kira Network, or others to be decided in the spirit of
-the technocratic governance system.
+Initially, the governance set will consist only of validators, but eventually, additional 
+members will be elected. These actors, called counselors, are not validators but may vote on 
+governance proposals. In order to become a counselor one must meet the requirements set out in 
+the Code of Conduct, and adhere to these rules when elected. The Code of Conduct will be created 
+(and curated) by the initial governance set and will detail obligations such as providing 
+utility to the network, possessing certain technical skills that will benefit the Kira ecosystem, 
+and many further requirements that will be decided upon in the spirit of creating a technocratic 
+system of governance.
 
 ## Q4: Where does the governance for Kira’s IBC logic happens?
 
