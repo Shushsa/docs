@@ -6,7 +6,7 @@ sidebar_label: Welcome
 
 <img src="assets/KiraMain.png" width="70%">
 
-Kira is building a first truly decentralized Interchain Exchange that does not require any middleman between blockchain and the user.
+Kira is building the first truly decentralized Interchain Exchange that requires no middleman between blockchain and user.
 
 Kira is a next-generation hyperscale decentralized exchange (DEX)
 engineered for cross-chain transfers and frictionless trading. On one
